@@ -3,7 +3,9 @@ node_modules/
 out/
 *.tsbuildinfo
 .env*
+!.env.example
 .DS_Store
+server.pid
 public/sw.js
 public/workbox-*.js
 public/worker-*.js

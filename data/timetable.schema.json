@@ -4,13 +4,17 @@
   "title": "HITU AI Timetable",
   "type": "object",
   "additionalProperties": false,
-  "required": ["version", "term", "sessions"],
+  "required": ["version", "term", "sessions", "maintenance"],
   "properties": {
     "version": { "type": "integer", "minimum": 1 },
     "term": { "type": "string", "minLength": 1 },
     "sessions": {
       "type": "array",
       "items": { "$ref": "#/$defs/session" }
+    },
+    "maintenance": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/maintenanceWindow" }
     }
   },
   "$defs": {
@@ -47,6 +51,17 @@
           "uniqueItems": true,
           "items": { "type": "integer", "minimum": 1, "maximum": 15 }
         }
+      }
+    },
+    "maintenanceWindow": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "day", "room"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "day": { "enum": ["sat", "sun", "mon", "tue", "wed", "thu", "fri"] },
+        "room": { "type": "string", "minLength": 1 },
+        "note": { "type": "string" }
       }
     }
   }

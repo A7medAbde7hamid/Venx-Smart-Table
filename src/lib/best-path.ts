@@ -1,4 +1,4 @@
-import type { Day, Session, Week } from "./types.ts";
+import type { Day, MaintenanceWindow, Session, Week } from "./types.ts";
 
 export type PlanStrategy = "finish-early" | "shortest-day";
 
@@ -32,6 +32,7 @@ export interface PlanOptions {
   week: Week;
   day: Day;
   strategy?: PlanStrategy;
+  maintenance?: MaintenanceWindow[];
 }
 
 export const toMinutes = (time: string): number => {
@@ -50,6 +51,9 @@ const overlaps = (a: Session, b: Session): boolean =>
 
 const nameKey = (name: string): string =>
   name.trim().toLowerCase().replace(/\s+/g, " ");
+
+const roomKey = (room: string): string =>
+  room.trim().toLowerCase().replace(/\s+/g, " ");
 
 const sameInstructor = (a: Session, b: Session): boolean =>
   nameKey(a.instructor) === nameKey(b.instructor);
@@ -115,10 +119,19 @@ export function planDay(
   sessions: Session[],
   options: PlanOptions,
 ): PlanResult | null {
-  const { studentSection, week, day, strategy = "finish-early" } = options;
+  const { studentSection, week, day, strategy = "finish-early", maintenance = [] } = options;
+
+  const blockedRooms = new Set(
+    maintenance
+      .filter((window) => window.day === day)
+      .map((window) => roomKey(window.room)),
+  );
 
   const daySessions = sessions.filter(
-    (session) => session.day === day && session.week === week,
+    (session) =>
+      session.day === day &&
+      session.week === week &&
+      !blockedRooms.has(roomKey(session.room)),
   );
   const ownSessions = daySessions.filter((session) =>
     session.sections.includes(studentSection),

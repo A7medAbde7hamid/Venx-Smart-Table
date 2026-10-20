@@ -10,6 +10,33 @@ const withPWA = withPWAInit({
   dynamicStartUrl: false,
 });
 
-const nextConfig: NextConfig = {};
+const noStoreHeaders = [
+  { key: "Cache-Control", value: "no-store, max-age=0" },
+];
+
+const nextConfig: NextConfig = {
+  async headers() {
+    return [
+      {
+        source: "/admin",
+        headers: [
+          ...noStoreHeaders,
+          { key: "X-Robots-Tag", value: "noindex, nofollow" },
+        ],
+      },
+      {
+        source: "/admin/:path*",
+        headers: [
+          ...noStoreHeaders,
+          { key: "X-Robots-Tag", value: "noindex, nofollow" },
+        ],
+      },
+      {
+        source: "/api/admin/:path*",
+        headers: noStoreHeaders,
+      },
+    ];
+  },
+};
 
 export default withPWA(nextConfig);

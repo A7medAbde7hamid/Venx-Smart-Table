@@ -18,8 +18,16 @@ export interface Session {
   sections: number[];
 }
 
+export interface MaintenanceWindow {
+  id: string;
+  day: Day;
+  room: string;
+  note?: string;
+}
+
 export interface Timetable {
   version: number;
   term: string;
   sessions: Session[];
+  maintenance: MaintenanceWindow[];
 }

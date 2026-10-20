@@ -118,6 +118,48 @@ test("finish-early prefers 09:00-17:00 over 10:00-17:00", () => {
   assert.ok(result.best.sessions.some((session) => session.id === "pref-a-alt"));
 });
 
+test("maintenance removes any session in a blocked room for that day", () => {
+  const maintenanceSessions: Session[] = [
+    {
+      id: "blocked",
+      courseId: "blocked-course",
+      courseName: "Blocked Course",
+      type: "section",
+      week: "W1",
+      day: "sat",
+      start: "09:00",
+      end: "10:00",
+      instructor: "Eng. Blocked",
+      room: "HALL B1",
+      sections: [1],
+    },
+    {
+      id: "open",
+      courseId: "open-course",
+      courseName: "Open Course",
+      type: "section",
+      week: "W1",
+      day: "sat",
+      start: "11:00",
+      end: "12:00",
+      instructor: "Eng. Open",
+      room: "HALL B2",
+      sections: [1],
+    },
+  ];
+
+  const result = planDay(maintenanceSessions, {
+    studentSection: 1,
+    week: "W1",
+    day: "sat",
+    maintenance: [{ id: "m1", day: "sat", room: "hall b1" }],
+  });
+
+  assert.ok(result);
+  assert.deepEqual(result.best.sessions.map((session) => session.id), ["open"]);
+  assert.deepEqual(result.own.sessions.map((session) => session.id), ["open"]);
+});
+
 const PLAN_DAYS = ["fri", "sat", "wed", "thu"] as const;
 const SECTIONS = Array.from({ length: 15 }, (_, index) => index + 1);
 const WEEKS = ["W1", "W2"] as const;
