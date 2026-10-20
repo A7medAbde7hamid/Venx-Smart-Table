@@ -1,0 +1,3056 @@
+{
+  "version": 1,
+  "term": "2026/2027 - Term 1",
+  "sessions": [
+    {
+      "id": "ai-applications-1-2-3-4-5-w1-sat-0900-lecture-f-seminar",
+      "courseId": "ai-applications",
+      "courseName": "Artificial Intelligence Applications",
+      "type": "lecture",
+      "week": "W1",
+      "day": "sat",
+      "start": "09:00",
+      "end": "10:00",
+      "instructor": "Dr. Mahmoud Samy",
+      "room": "F-SEMINAR",
+      "sections": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "ai-applications-1-2-3-4-5-w2-sat-0900-lecture-f-seminar",
+      "courseId": "ai-applications",
+      "courseName": "Artificial Intelligence Applications",
+      "type": "lecture",
+      "week": "W2",
+      "day": "sat",
+      "start": "09:00",
+      "end": "10:00",
+      "instructor": "Dr. Mahmoud Samy",
+      "room": "F-SEMINAR",
+      "sections": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "ds-fundamentals-13-w2-sat-0900-section-hall-a305",
+      "courseId": "ds-fundamentals",
+      "courseName": "Data Science Fundamentals",
+      "type": "section",
+      "week": "W2",
+      "day": "sat",
+      "start": "09:00",
+      "end": "10:00",
+      "instructor": "Eng. Ahmed Amin",
+      "room": "HALL A305",
+      "sections": [
+        13
+      ]
+    },
+    {
+      "id": "ai-applications-13-w2-sat-1000-section-lab-d105",
+      "courseId": "ai-applications",
+      "courseName": "Artificial Intelligence Applications",
+      "type": "section",
+      "week": "W2",
+      "day": "sat",
+      "start": "10:00",
+      "end": "11:00",
+      "instructor": "Eng. Shahd Mohamed",
+      "room": "LAB D105",
+      "sections": [
+        13
+      ]
+    },
+    {
+      "id": "expert-systems-15-w1-sat-1000-section-hall-d101",
+      "courseId": "expert-systems",
+      "courseName": "Expert Systems",
+      "type": "section",
+      "week": "W1",
+      "day": "sat",
+      "start": "10:00",
+      "end": "11:00",
+      "instructor": "Eng. Shahd Mohamed",
+      "room": "HALL D101",
+      "sections": [
+        15
+      ]
+    },
+    {
+      "id": "expert-systems-6-w2-sat-1100-section-hall-d105",
+      "courseId": "expert-systems",
+      "courseName": "Expert Systems",
+      "type": "section",
+      "week": "W2",
+      "day": "sat",
+      "start": "11:00",
+      "end": "12:00",
+      "instructor": "Eng. Mohamed Amr",
+      "room": "HALL D105",
+      "sections": [
+        6
+      ]
+    },
+    {
+      "id": "java-11-w1-sat-1100-section-plc-lab",
+      "courseId": "java",
+      "courseName": "Java",
+      "type": "section",
+      "week": "W1",
+      "day": "sat",
+      "start": "11:00",
+      "end": "12:00",
+      "instructor": "Eng. Mohamed Omar",
+      "room": "PLC Lab",
+      "sections": [
+        11
+      ]
+    },
+    {
+      "id": "ai-applications-13-w1-sat-1100-section-lab-d103",
+      "courseId": "ai-applications",
+      "courseName": "Artificial Intelligence Applications",
+      "type": "section",
+      "week": "W1",
+      "day": "sat",
+      "start": "11:00",
+      "end": "12:00",
+      "instructor": "Eng. Shahd Mohamed",
+      "room": "LAB D103",
+      "sections": [
+        13
+      ]
+    },
+    {
+      "id": "artificial-intelligence-13-w2-sat-1100-section-lab-a01",
+      "courseId": "artificial-intelligence",
+      "courseName": "Artificial Intelligence",
+      "type": "section",
+      "week": "W2",
+      "day": "sat",
+      "start": "11:00",
+      "end": "12:00",
+      "instructor": "Eng. Marwa",
+      "room": "LAB A01",
+      "sections": [
+        13
+      ]
+    },
+    {
+      "id": "java-6-w1-sat-1200-section-g201",
+      "courseId": "java",
+      "courseName": "Java",
+      "type": "section",
+      "week": "W1",
+      "day": "sat",
+      "start": "12:00",
+      "end": "13:00",
+      "instructor": "Eng. Naglaa",
+      "room": "G201",
+      "sections": [
+        6
+      ]
+    },
+    {
+      "id": "java-6-w2-sat-1200-section-d101",
+      "courseId": "java",
+      "courseName": "Java",
+      "type": "section",
+      "week": "W2",
+      "day": "sat",
+      "start": "12:00",
+      "end": "13:00",
+      "instructor": "Eng. Naglaa",
+      "room": "D101",
+      "sections": [
+        6
+      ]
+    },
+    {
+      "id": "java-13-w2-sat-1200-section-lab-a01",
+      "courseId": "java",
+      "courseName": "Java",
+      "type": "section",
+      "week": "W2",
+      "day": "sat",
+      "start": "12:00",
+      "end": "13:00",
+      "instructor": "Eng. Mohamed Omar",
+      "room": "LAB A01",
+      "sections": [
+        13
+      ]
+    },
+    {
+      "id": "expert-systems-14-w2-sat-1200-section-lab-d103",
+      "courseId": "expert-systems",
+      "courseName": "Expert Systems",
+      "type": "section",
+      "week": "W2",
+      "day": "sat",
+      "start": "12:00",
+      "end": "13:00",
+      "instructor": "Eng. Shahd Mohamed",
+      "room": "LAB D103",
+      "sections": [
+        14
+      ]
+    },
+    {
+      "id": "ai-applications-15-w1-sat-1200-section-lab-d105",
+      "courseId": "ai-applications",
+      "courseName": "Artificial Intelligence Applications",
+      "type": "section",
+      "week": "W1",
+      "day": "sat",
+      "start": "12:00",
+      "end": "13:00",
+      "instructor": "Eng. Mohamed Ammar",
+      "room": "LAB D105",
+      "sections": [
+        15
+      ]
+    },
+    {
+      "id": "expert-systems-6-w1-sat-1300-section-lab-d104",
+      "courseId": "expert-systems",
+      "courseName": "Expert Systems",
+      "type": "section",
+      "week": "W1",
+      "day": "sat",
+      "start": "13:00",
+      "end": "14:00",
+      "instructor": "Eng. Mohamed Amr",
+      "room": "LAB D104",
+      "sections": [
+        6
+      ]
+    },
+    {
+      "id": "ds-fundamentals-9-w2-sat-1300-section-hall-g204",
+      "courseId": "ds-fundamentals",
+      "courseName": "Data Science Fundamentals",
+      "type": "section",
+      "week": "W2",
+      "day": "sat",
+      "start": "13:00",
+      "end": "14:00",
+      "instructor": "Eng. Mohamed Amr",
+      "room": "HALL G204",
+      "sections": [
+        9
+      ]
+    },
+    {
+      "id": "ds-fundamentals-11-12-13-14-15-w1-sat-1300-lecture-g202",
+      "courseId": "ds-fundamentals",
+      "courseName": "Data Science Fundamentals",
+      "type": "lecture",
+      "week": "W1",
+      "day": "sat",
+      "start": "13:00",
+      "end": "14:00",
+      "instructor": "Dr. Sameh Mustafa",
+      "room": "G202",
+      "sections": [
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "id": "ds-fundamentals-11-12-13-14-15-w2-sat-1300-lecture-g202",
+      "courseId": "ds-fundamentals",
+      "courseName": "Data Science Fundamentals",
+      "type": "lecture",
+      "week": "W2",
+      "day": "sat",
+      "start": "13:00",
+      "end": "14:00",
+      "instructor": "Dr. Sameh Mustafa",
+      "room": "G202",
+      "sections": [
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "id": "ds-fundamentals-6-7-8-9-10-w1-sat-1400-lecture-a-new",
+      "courseId": "ds-fundamentals",
+      "courseName": "Data Science Fundamentals",
+      "type": "lecture",
+      "week": "W1",
+      "day": "sat",
+      "start": "14:00",
+      "end": "15:00",
+      "instructor": "Dr. Sameh Mustafa",
+      "room": "A-New",
+      "sections": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "id": "ds-fundamentals-6-7-8-9-10-w2-sat-1400-lecture-a-new",
+      "courseId": "ds-fundamentals",
+      "courseName": "Data Science Fundamentals",
+      "type": "lecture",
+      "week": "W2",
+      "day": "sat",
+      "start": "14:00",
+      "end": "15:00",
+      "instructor": "Dr. Sameh Mustafa",
+      "room": "A-New",
+      "sections": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "id": "java-14-w2-sat-1400-section-lab-a01",
+      "courseId": "java",
+      "courseName": "Java",
+      "type": "section",
+      "week": "W2",
+      "day": "sat",
+      "start": "14:00",
+      "end": "15:00",
+      "instructor": "Eng. Mohamed Omar",
+      "room": "LAB A01",
+      "sections": [
+        14
+      ]
+    },
+    {
+      "id": "ds-fundamentals-1-2-3-4-5-w1-sat-1500-lecture-g204",
+      "courseId": "ds-fundamentals",
+      "courseName": "Data Science Fundamentals",
+      "type": "lecture",
+      "week": "W1",
+      "day": "sat",
+      "start": "15:00",
+      "end": "16:00",
+      "instructor": "Dr. Sameh Mustafa",
+      "room": "G204",
+      "sections": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "ds-fundamentals-1-2-3-4-5-w2-sat-1500-lecture-g204",
+      "courseId": "ds-fundamentals",
+      "courseName": "Data Science Fundamentals",
+      "type": "lecture",
+      "week": "W2",
+      "day": "sat",
+      "start": "15:00",
+      "end": "16:00",
+      "instructor": "Dr. Sameh Mustafa",
+      "room": "G204",
+      "sections": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "ds-fundamentals-6-w1-sat-1500-section-hall-g107",
+      "courseId": "ds-fundamentals",
+      "courseName": "Data Science Fundamentals",
+      "type": "section",
+      "week": "W1",
+      "day": "sat",
+      "start": "15:00",
+      "end": "16:00",
+      "instructor": "Eng. Dina",
+      "room": "HALL G107",
+      "sections": [
+        6
+      ]
+    },
+    {
+      "id": "ds-fundamentals-6-w2-sat-1500-section-lab-a02",
+      "courseId": "ds-fundamentals",
+      "courseName": "Data Science Fundamentals",
+      "type": "section",
+      "week": "W2",
+      "day": "sat",
+      "start": "15:00",
+      "end": "16:00",
+      "instructor": "Eng. Dina",
+      "room": "LAB A02",
+      "sections": [
+        6
+      ]
+    },
+    {
+      "id": "java-8-w1-sat-1500-section-lab-d102",
+      "courseId": "java",
+      "courseName": "Java",
+      "type": "section",
+      "week": "W1",
+      "day": "sat",
+      "start": "15:00",
+      "end": "16:00",
+      "instructor": "Eng. Naglaa",
+      "room": "LAB D102",
+      "sections": [
+        8
+      ]
+    },
+    {
+      "id": "java-8-w2-sat-1500-section-lab-101",
+      "courseId": "java",
+      "courseName": "Java",
+      "type": "section",
+      "week": "W2",
+      "day": "sat",
+      "start": "15:00",
+      "end": "16:00",
+      "instructor": "Eng. Naglaa",
+      "room": "LAB 101",
+      "sections": [
+        8
+      ]
+    },
+    {
+      "id": "artificial-intelligence-9-w2-sat-1500-section-lab-a01",
+      "courseId": "artificial-intelligence",
+      "courseName": "Artificial Intelligence",
+      "type": "section",
+      "week": "W2",
+      "day": "sat",
+      "start": "15:00",
+      "end": "16:00",
+      "instructor": "Eng. Marwa",
+      "room": "LAB A01",
+      "sections": [
+        9
+      ]
+    },
+    {
+      "id": "ai-applications-11-12-13-14-15-w1-sat-1500-lecture-a-new",
+      "courseId": "ai-applications",
+      "courseName": "Artificial Intelligence Applications",
+      "type": "lecture",
+      "week": "W1",
+      "day": "sat",
+      "start": "15:00",
+      "end": "16:00",
+      "instructor": "Dr. Mahmoud Samy",
+      "room": "A-New",
+      "sections": [
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "id": "ai-applications-11-12-13-14-15-w2-sat-1500-lecture-a-new",
+      "courseId": "ai-applications",
+      "courseName": "Artificial Intelligence Applications",
+      "type": "lecture",
+      "week": "W2",
+      "day": "sat",
+      "start": "15:00",
+      "end": "16:00",
+      "instructor": "Dr. Mahmoud Samy",
+      "room": "A-New",
+      "sections": [
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "id": "expert-systems-1-w2-sat-1600-section-hall-a305",
+      "courseId": "expert-systems",
+      "courseName": "Expert Systems",
+      "type": "section",
+      "week": "W2",
+      "day": "sat",
+      "start": "16:00",
+      "end": "17:00",
+      "instructor": "Eng. Mohamed Amr",
+      "room": "HALL A305",
+      "sections": [
+        1
+      ]
+    },
+    {
+      "id": "ai-applications-6-7-8-9-10-w1-sat-1600-lecture-a-new",
+      "courseId": "ai-applications",
+      "courseName": "Artificial Intelligence Applications",
+      "type": "lecture",
+      "week": "W1",
+      "day": "sat",
+      "start": "16:00",
+      "end": "17:00",
+      "instructor": "Dr. Mahmoud Samy",
+      "room": "A-New",
+      "sections": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "id": "ai-applications-6-7-8-9-10-w2-sat-1600-lecture-a-new",
+      "courseId": "ai-applications",
+      "courseName": "Artificial Intelligence Applications",
+      "type": "lecture",
+      "week": "W2",
+      "day": "sat",
+      "start": "16:00",
+      "end": "17:00",
+      "instructor": "Dr. Mahmoud Samy",
+      "room": "A-New",
+      "sections": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "id": "java-13-w1-sat-1600-section-hall-a202",
+      "courseId": "java",
+      "courseName": "Java",
+      "type": "section",
+      "week": "W1",
+      "day": "sat",
+      "start": "16:00",
+      "end": "17:00",
+      "instructor": "Eng. Mohamed Omar",
+      "room": "HALL A202",
+      "sections": [
+        13
+      ]
+    },
+    {
+      "id": "artificial-intelligence-14-w2-sat-1600-section-hall-g107",
+      "courseId": "artificial-intelligence",
+      "courseName": "Artificial Intelligence",
+      "type": "section",
+      "week": "W2",
+      "day": "sat",
+      "start": "16:00",
+      "end": "17:00",
+      "instructor": "Eng. Marwa",
+      "room": "HALL G107",
+      "sections": [
+        14
+      ]
+    },
+    {
+      "id": "artificial-intelligence-15-w1-sat-1600-section-hall-g107",
+      "courseId": "artificial-intelligence",
+      "courseName": "Artificial Intelligence",
+      "type": "section",
+      "week": "W1",
+      "day": "sat",
+      "start": "16:00",
+      "end": "17:00",
+      "instructor": "Eng. Marwa",
+      "room": "HALL G107",
+      "sections": [
+        15
+      ]
+    },
+    {
+      "id": "artificial-intelligence-6-w1-sat-1700-section-hall-f-sem",
+      "courseId": "artificial-intelligence",
+      "courseName": "Artificial Intelligence",
+      "type": "section",
+      "week": "W1",
+      "day": "sat",
+      "start": "17:00",
+      "end": "18:00",
+      "instructor": "Eng. Marwa",
+      "room": "HALL F-SEM",
+      "sections": [
+        6
+      ]
+    },
+    {
+      "id": "artificial-intelligence-6-w2-sat-1700-section-lab-d104",
+      "courseId": "artificial-intelligence",
+      "courseName": "Artificial Intelligence",
+      "type": "section",
+      "week": "W2",
+      "day": "sat",
+      "start": "17:00",
+      "end": "18:00",
+      "instructor": "Eng. Marwa",
+      "room": "LAB D104",
+      "sections": [
+        6
+      ]
+    },
+    {
+      "id": "ds-fundamentals-8-w1-sat-1700-section-hall-g107",
+      "courseId": "ds-fundamentals",
+      "courseName": "Data Science Fundamentals",
+      "type": "section",
+      "week": "W1",
+      "day": "sat",
+      "start": "17:00",
+      "end": "18:00",
+      "instructor": "Eng. Mohamed Amr",
+      "room": "HALL G107",
+      "sections": [
+        8
+      ]
+    },
+    {
+      "id": "ds-fundamentals-8-w2-sat-1700-section-lab-d101",
+      "courseId": "ds-fundamentals",
+      "courseName": "Data Science Fundamentals",
+      "type": "section",
+      "week": "W2",
+      "day": "sat",
+      "start": "17:00",
+      "end": "18:00",
+      "instructor": "Eng. Mohamed Amr",
+      "room": "LAB D101",
+      "sections": [
+        8
+      ]
+    },
+    {
+      "id": "java-9-w2-sat-1700-section-hall-a303",
+      "courseId": "java",
+      "courseName": "Java",
+      "type": "section",
+      "week": "W2",
+      "day": "sat",
+      "start": "17:00",
+      "end": "18:00",
+      "instructor": "Eng. Mohamed Omar",
+      "room": "HALL A303",
+      "sections": [
+        9
+      ]
+    },
+    {
+      "id": "expert-systems-13-w1-sat-1700-section-lab-a01",
+      "courseId": "expert-systems",
+      "courseName": "Expert Systems",
+      "type": "section",
+      "week": "W1",
+      "day": "sat",
+      "start": "17:00",
+      "end": "18:00",
+      "instructor": "Eng. Shahd Mohamed",
+      "room": "LAB A01",
+      "sections": [
+        13
+      ]
+    },
+    {
+      "id": "expert-systems-13-w2-sat-1700-section-hall-g107",
+      "courseId": "expert-systems",
+      "courseName": "Expert Systems",
+      "type": "section",
+      "week": "W2",
+      "day": "sat",
+      "start": "17:00",
+      "end": "18:00",
+      "instructor": "Eng. Shahd Mohamed",
+      "room": "HALL G107",
+      "sections": [
+        13
+      ]
+    },
+    {
+      "id": "ds-fundamentals-14-w1-sat-1700-section-hall-g105",
+      "courseId": "ds-fundamentals",
+      "courseName": "Data Science Fundamentals",
+      "type": "section",
+      "week": "W1",
+      "day": "sat",
+      "start": "17:00",
+      "end": "18:00",
+      "instructor": "Eng. Ahmed Amin",
+      "room": "HALL G105",
+      "sections": [
+        14
+      ]
+    },
+    {
+      "id": "ds-fundamentals-14-w2-sat-1700-section-lab-a02",
+      "courseId": "ds-fundamentals",
+      "courseName": "Data Science Fundamentals",
+      "type": "section",
+      "week": "W2",
+      "day": "sat",
+      "start": "17:00",
+      "end": "18:00",
+      "instructor": "Eng. Ahmed Amin",
+      "room": "LAB A02",
+      "sections": [
+        14
+      ]
+    },
+    {
+      "id": "java-15-w1-sat-1700-section-hall-a303",
+      "courseId": "java",
+      "courseName": "Java",
+      "type": "section",
+      "week": "W1",
+      "day": "sat",
+      "start": "17:00",
+      "end": "18:00",
+      "instructor": "Eng. Mohamed Omar",
+      "room": "HALL A303",
+      "sections": [
+        15
+      ]
+    },
+    {
+      "id": "ai-applications-1-w2-wed-0900-section-lab-d105",
+      "courseId": "ai-applications",
+      "courseName": "Artificial Intelligence Applications",
+      "type": "section",
+      "week": "W2",
+      "day": "wed",
+      "start": "09:00",
+      "end": "10:00",
+      "instructor": "Eng. Mohamed Ammar",
+      "room": "LAB D105",
+      "sections": [
+        1
+      ]
+    },
+    {
+      "id": "java-2-w1-wed-0900-section-lab-d101",
+      "courseId": "java",
+      "courseName": "Java",
+      "type": "section",
+      "week": "W1",
+      "day": "wed",
+      "start": "09:00",
+      "end": "10:00",
+      "instructor": "Eng. Naglaa",
+      "room": "LAB D101",
+      "sections": [
+        2
+      ]
+    },
+    {
+      "id": "ds-fundamentals-3-w1-wed-0900-section-hall-g202",
+      "courseId": "ds-fundamentals",
+      "courseName": "Data Science Fundamentals",
+      "type": "section",
+      "week": "W1",
+      "day": "wed",
+      "start": "09:00",
+      "end": "10:00",
+      "instructor": "Eng. Ahmed Amin",
+      "room": "HALL G202",
+      "sections": [
+        3
+      ]
+    },
+    {
+      "id": "artificial-intelligence-4-w2-wed-0900-section-hall-g202",
+      "courseId": "artificial-intelligence",
+      "courseName": "Artificial Intelligence",
+      "type": "section",
+      "week": "W2",
+      "day": "wed",
+      "start": "09:00",
+      "end": "10:00",
+      "instructor": "Eng. Marwa",
+      "room": "HALL G202",
+      "sections": [
+        4
+      ]
+    },
+    {
+      "id": "java-5-w2-wed-0900-section-lab-d101",
+      "courseId": "java",
+      "courseName": "Java",
+      "type": "section",
+      "week": "W2",
+      "day": "wed",
+      "start": "09:00",
+      "end": "10:00",
+      "instructor": "Eng. Naglaa",
+      "room": "LAB D101",
+      "sections": [
+        5
+      ]
+    },
+    {
+      "id": "ai-applications-8-w1-wed-0900-section-lab-d103",
+      "courseId": "ai-applications",
+      "courseName": "Artificial Intelligence Applications",
+      "type": "section",
+      "week": "W1",
+      "day": "wed",
+      "start": "09:00",
+      "end": "10:00",
+      "instructor": "Eng. Mohamed Ammar",
+      "room": "LAB D103",
+      "sections": [
+        8
+      ]
+    },
+    {
+      "id": "ds-fundamentals-1-w1-wed-1000-section-hall-d103",
+      "courseId": "ds-fundamentals",
+      "courseName": "Data Science Fundamentals",
+      "type": "section",
+      "week": "W1",
+      "day": "wed",
+      "start": "10:00",
+      "end": "11:00",
+      "instructor": "Eng. Dina",
+      "room": "HALL D103",
+      "sections": [
+        1
+      ]
+    },
+    {
+      "id": "ds-fundamentals-1-w2-wed-1000-section-lab-d101",
+      "courseId": "ds-fundamentals",
+      "courseName": "Data Science Fundamentals",
+      "type": "section",
+      "week": "W2",
+      "day": "wed",
+      "start": "10:00",
+      "end": "11:00",
+      "instructor": "Eng. Dina",
+      "room": "LAB D101",
+      "sections": [
+        1
+      ]
+    },
+    {
+      "id": "expert-systems-3-w1-wed-1000-section-hydrolic-lab",
+      "courseId": "expert-systems",
+      "courseName": "Expert Systems",
+      "type": "section",
+      "week": "W1",
+      "day": "wed",
+      "start": "10:00",
+      "end": "11:00",
+      "instructor": "Eng. Shahd Bakry",
+      "room": "Hydrolic Lab",
+      "sections": [
+        3
+      ]
+    },
+    {
+      "id": "expert-systems-3-w2-wed-1000-section-lab-a02",
+      "courseId": "expert-systems",
+      "courseName": "Expert Systems",
+      "type": "section",
+      "week": "W2",
+      "day": "wed",
+      "start": "10:00",
+      "end": "11:00",
+      "instructor": "Eng. Shahd Bakry",
+      "room": "LAB A02",
+      "sections": [
+        3
+      ]
+    },
+    {
+      "id": "ai-applications-5-w2-wed-1000-section-lab-d105",
+      "courseId": "ai-applications",
+      "courseName": "Artificial Intelligence Applications",
+      "type": "section",
+      "week": "W2",
+      "day": "wed",
+      "start": "10:00",
+      "end": "11:00",
+      "instructor": "Eng. Mohamed Ammar",
+      "room": "LAB D105",
+      "sections": [
+        5
+      ]
+    },
+    {
+      "id": "expert-systems-1-w1-wed-1100-section-lab-d104",
+      "courseId": "expert-systems",
+      "courseName": "Expert Systems",
+      "type": "section",
+      "week": "W1",
+      "day": "wed",
+      "start": "11:00",
+      "end": "12:00",
+      "instructor": "Eng. Mohamed Amr",
+      "room": "LAB D104",
+      "sections": [
+        1
+      ]
+    },
+    {
+      "id": "ai-applications-2-w1-wed-1100-section-lab-d101",
+      "courseId": "ai-applications",
+      "courseName": "Artificial Intelligence Applications",
+      "type": "section",
+      "week": "W1",
+      "day": "wed",
+      "start": "11:00",
+      "end": "12:00",
+      "instructor": "Eng. Mohamed Ammar",
+      "room": "LAB D101",
+      "sections": [
+        2
+      ]
+    },
+    {
+      "id": "java-3-w1-wed-1100-section-lab-d103",
+      "courseId": "java",
+      "courseName": "Java",
+      "type": "section",
+      "week": "W1",
+      "day": "wed",
+      "start": "11:00",
+      "end": "12:00",
+      "instructor": "Eng. Naglaa",
+      "room": "LAB D103",
+      "sections": [
+        3
+      ]
+    },
+    {
+      "id": "expert-systems-9-w2-wed-1100-section-lab-a01",
+      "courseId": "expert-systems",
+      "courseName": "Expert Systems",
+      "type": "section",
+      "week": "W2",
+      "day": "wed",
+      "start": "11:00",
+      "end": "12:00",
+      "instructor": "Eng. Mohamed Amr",
+      "room": "LAB A01",
+      "sections": [
+        9
+      ]
+    },
+    {
+      "id": "expert-systems-10-w1-wed-1100-section-hydrolic-lab",
+      "courseId": "expert-systems",
+      "courseName": "Expert Systems",
+      "type": "section",
+      "week": "W1",
+      "day": "wed",
+      "start": "11:00",
+      "end": "12:00",
+      "instructor": "Eng. Shahd Bakry",
+      "room": "Hydrolic Lab",
+      "sections": [
+        10
+      ]
+    },
+    {
+      "id": "expert-systems-10-w2-wed-1100-section-cnc-lab",
+      "courseId": "expert-systems",
+      "courseName": "Expert Systems",
+      "type": "section",
+      "week": "W2",
+      "day": "wed",
+      "start": "11:00",
+      "end": "12:00",
+      "instructor": "Eng. Shahd Bakry",
+      "room": "CNC Lab",
+      "sections": [
+        10
+      ]
+    },
+    {
+      "id": "java-1-w2-wed-1200-section-lab-a02",
+      "courseId": "java",
+      "courseName": "Java",
+      "type": "section",
+      "week": "W2",
+      "day": "wed",
+      "start": "12:00",
+      "end": "13:00",
+      "instructor": "Eng. Naglaa",
+      "room": "LAB A02",
+      "sections": [
+        1
+      ]
+    },
+    {
+      "id": "ds-fundamentals-2-w2-wed-1200-section-hall-d102",
+      "courseId": "ds-fundamentals",
+      "courseName": "Data Science Fundamentals",
+      "type": "section",
+      "week": "W2",
+      "day": "wed",
+      "start": "12:00",
+      "end": "13:00",
+      "instructor": "Eng. Dina",
+      "room": "HALL D102",
+      "sections": [
+        2
+      ]
+    },
+    {
+      "id": "ai-applications-3-w2-wed-1200-section-lab-d105",
+      "courseId": "ai-applications",
+      "courseName": "Artificial Intelligence Applications",
+      "type": "section",
+      "week": "W2",
+      "day": "wed",
+      "start": "12:00",
+      "end": "13:00",
+      "instructor": "Eng. Mohamed Ammar",
+      "room": "LAB D105",
+      "sections": [
+        3
+      ]
+    },
+    {
+      "id": "ai-applications-4-w1-wed-1200-section-hydrolic-lab",
+      "courseId": "ai-applications",
+      "courseName": "Artificial Intelligence Applications",
+      "type": "section",
+      "week": "W1",
+      "day": "wed",
+      "start": "12:00",
+      "end": "13:00",
+      "instructor": "Eng. Mohamed Ammar",
+      "room": "Hydrolic Lab",
+      "sections": [
+        4
+      ]
+    },
+    {
+      "id": "artificial-intelligence-5-w1-wed-1200-section-hall-g207",
+      "courseId": "artificial-intelligence",
+      "courseName": "Artificial Intelligence",
+      "type": "section",
+      "week": "W1",
+      "day": "wed",
+      "start": "12:00",
+      "end": "13:00",
+      "instructor": "Eng. Ahmed Amin",
+      "room": "HALL G207",
+      "sections": [
+        5
+      ]
+    },
+    {
+      "id": "ds-fundamentals-9-w1-wed-1200-section-lab-d102",
+      "courseId": "ds-fundamentals",
+      "courseName": "Data Science Fundamentals",
+      "type": "section",
+      "week": "W1",
+      "day": "wed",
+      "start": "12:00",
+      "end": "13:00",
+      "instructor": "Eng. Mohamed Amr",
+      "room": "LAB D102",
+      "sections": [
+        9
+      ]
+    },
+    {
+      "id": "expert-systems-10-11-12-w1-wed-1200-lecture-g202",
+      "courseId": "expert-systems",
+      "courseName": "Expert Systems",
+      "type": "lecture",
+      "week": "W1",
+      "day": "wed",
+      "start": "12:00",
+      "end": "13:00",
+      "instructor": "Dr. Muhammed Salah",
+      "room": "G202",
+      "sections": [
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "expert-systems-10-11-12-w2-wed-1200-lecture-g202",
+      "courseId": "expert-systems",
+      "courseName": "Expert Systems",
+      "type": "lecture",
+      "week": "W2",
+      "day": "wed",
+      "start": "12:00",
+      "end": "13:00",
+      "instructor": "Dr. Muhammed Salah",
+      "room": "G202",
+      "sections": [
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "artificial-intelligence-1-w1-wed-1300-section-hall-f201",
+      "courseId": "artificial-intelligence",
+      "courseName": "Artificial Intelligence",
+      "type": "section",
+      "week": "W1",
+      "day": "wed",
+      "start": "13:00",
+      "end": "14:00",
+      "instructor": "Eng. Ahmed Amin",
+      "room": "HALL F201",
+      "sections": [
+        1
+      ]
+    },
+    {
+      "id": "ds-fundamentals-2-w1-wed-1300-section-lab-d102",
+      "courseId": "ds-fundamentals",
+      "courseName": "Data Science Fundamentals",
+      "type": "section",
+      "week": "W1",
+      "day": "wed",
+      "start": "13:00",
+      "end": "14:00",
+      "instructor": "Eng. Dina",
+      "room": "LAB D102",
+      "sections": [
+        2
+      ]
+    },
+    {
+      "id": "ds-fundamentals-3-w2-wed-1300-section-lab-d104",
+      "courseId": "ds-fundamentals",
+      "courseName": "Data Science Fundamentals",
+      "type": "section",
+      "week": "W2",
+      "day": "wed",
+      "start": "13:00",
+      "end": "14:00",
+      "instructor": "Eng. Ahmed Amin",
+      "room": "LAB D104",
+      "sections": [
+        3
+      ]
+    },
+    {
+      "id": "ai-applications-4-w2-wed-1300-section-lab-d103",
+      "courseId": "ai-applications",
+      "courseName": "Artificial Intelligence Applications",
+      "type": "section",
+      "week": "W2",
+      "day": "wed",
+      "start": "13:00",
+      "end": "14:00",
+      "instructor": "Eng. Mohamed Ammar",
+      "room": "LAB D103",
+      "sections": [
+        4
+      ]
+    },
+    {
+      "id": "ai-applications-5-w1-wed-1300-section-hall-d105",
+      "courseId": "ai-applications",
+      "courseName": "Artificial Intelligence Applications",
+      "type": "section",
+      "week": "W1",
+      "day": "wed",
+      "start": "13:00",
+      "end": "14:00",
+      "instructor": "Eng. Mohamed Ammar",
+      "room": "HALL D105",
+      "sections": [
+        5
+      ]
+    },
+    {
+      "id": "expert-systems-8-w1-wed-1300-section-plc-lab",
+      "courseId": "expert-systems",
+      "courseName": "Expert Systems",
+      "type": "section",
+      "week": "W1",
+      "day": "wed",
+      "start": "13:00",
+      "end": "14:00",
+      "instructor": "Eng. Mohamed Amr",
+      "room": "PLC Lab",
+      "sections": [
+        8
+      ]
+    },
+    {
+      "id": "expert-systems-13-14-15-w1-wed-1300-lecture-g202",
+      "courseId": "expert-systems",
+      "courseName": "Expert Systems",
+      "type": "lecture",
+      "week": "W1",
+      "day": "wed",
+      "start": "13:00",
+      "end": "14:00",
+      "instructor": "Dr. Muhammed Salah",
+      "room": "G202",
+      "sections": [
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "id": "expert-systems-13-14-15-w2-wed-1300-lecture-g202",
+      "courseId": "expert-systems",
+      "courseName": "Expert Systems",
+      "type": "lecture",
+      "week": "W2",
+      "day": "wed",
+      "start": "13:00",
+      "end": "14:00",
+      "instructor": "Dr. Muhammed Salah",
+      "room": "G202",
+      "sections": [
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "id": "artificial-intelligence-1-w2-wed-1400-section-lab-f201",
+      "courseId": "artificial-intelligence",
+      "courseName": "Artificial Intelligence",
+      "type": "section",
+      "week": "W2",
+      "day": "wed",
+      "start": "14:00",
+      "end": "15:00",
+      "instructor": "Eng. Ahmed Amin",
+      "room": "LAB F201",
+      "sections": [
+        1
+      ]
+    },
+    {
+      "id": "ai-applications-2-w2-wed-1400-section-plc-lab",
+      "courseId": "ai-applications",
+      "courseName": "Artificial Intelligence Applications",
+      "type": "section",
+      "week": "W2",
+      "day": "wed",
+      "start": "14:00",
+      "end": "15:00",
+      "instructor": "Eng. Mohamed Ammar",
+      "room": "PLC Lab",
+      "sections": [
+        2
+      ]
+    },
+    {
+      "id": "java-4-w1-wed-1400-section-hall-g207",
+      "courseId": "java",
+      "courseName": "Java",
+      "type": "section",
+      "week": "W1",
+      "day": "wed",
+      "start": "14:00",
+      "end": "15:00",
+      "instructor": "Eng. Naglaa",
+      "room": "HALL G207",
+      "sections": [
+        4
+      ]
+    },
+    {
+      "id": "java-4-w2-wed-1400-section-lab-a02",
+      "courseId": "java",
+      "courseName": "Java",
+      "type": "section",
+      "week": "W2",
+      "day": "wed",
+      "start": "14:00",
+      "end": "15:00",
+      "instructor": "Eng. Naglaa",
+      "room": "LAB A02",
+      "sections": [
+        4
+      ]
+    },
+    {
+      "id": "expert-systems-6-7-8-9-w1-wed-1400-lecture-f-seminar",
+      "courseId": "expert-systems",
+      "courseName": "Expert Systems",
+      "type": "lecture",
+      "week": "W1",
+      "day": "wed",
+      "start": "14:00",
+      "end": "15:00",
+      "instructor": "Dr. Muhammed Salah",
+      "room": "F-SEMINAR",
+      "sections": [
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "expert-systems-6-7-8-9-w2-wed-1400-lecture-f-seminar",
+      "courseId": "expert-systems",
+      "courseName": "Expert Systems",
+      "type": "lecture",
+      "week": "W2",
+      "day": "wed",
+      "start": "14:00",
+      "end": "15:00",
+      "instructor": "Dr. Muhammed Salah",
+      "room": "F-SEMINAR",
+      "sections": [
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "ai-applications-11-w2-wed-1400-section-hydrolic-lab",
+      "courseId": "ai-applications",
+      "courseName": "Artificial Intelligence Applications",
+      "type": "section",
+      "week": "W2",
+      "day": "wed",
+      "start": "14:00",
+      "end": "15:00",
+      "instructor": "Eng. Mohamed Ammar",
+      "room": "Hydrolic Lab",
+      "sections": [
+        11
+      ]
+    },
+    {
+      "id": "ds-fundamentals-12-w2-wed-1400-section-hall-a304",
+      "courseId": "ds-fundamentals",
+      "courseName": "Data Science Fundamentals",
+      "type": "section",
+      "week": "W2",
+      "day": "wed",
+      "start": "14:00",
+      "end": "15:00",
+      "instructor": "Eng. Mohamed Amr",
+      "room": "HALL A304",
+      "sections": [
+        12
+      ]
+    },
+    {
+      "id": "ds-fundamentals-13-w1-wed-1400-section-hall-f201",
+      "courseId": "ds-fundamentals",
+      "courseName": "Data Science Fundamentals",
+      "type": "section",
+      "week": "W1",
+      "day": "wed",
+      "start": "14:00",
+      "end": "15:00",
+      "instructor": "Eng. Ahmed Amin",
+      "room": "HALL F201",
+      "sections": [
+        13
+      ]
+    },
+    {
+      "id": "expert-systems-1-2-3-4-5-w1-wed-1500-lecture-f-seminar",
+      "courseId": "expert-systems",
+      "courseName": "Expert Systems",
+      "type": "lecture",
+      "week": "W1",
+      "day": "wed",
+      "start": "15:00",
+      "end": "16:00",
+      "instructor": "Dr. Muhammed Salah",
+      "room": "F-SEMINAR",
+      "sections": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "expert-systems-1-2-3-4-5-w2-wed-1500-lecture-f-seminar",
+      "courseId": "expert-systems",
+      "courseName": "Expert Systems",
+      "type": "lecture",
+      "week": "W2",
+      "day": "wed",
+      "start": "15:00",
+      "end": "16:00",
+      "instructor": "Dr. Muhammed Salah",
+      "room": "F-SEMINAR",
+      "sections": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "ds-fundamentals-12-w1-wed-1500-section-hall-g105",
+      "courseId": "ds-fundamentals",
+      "courseName": "Data Science Fundamentals",
+      "type": "section",
+      "week": "W1",
+      "day": "wed",
+      "start": "15:00",
+      "end": "16:00",
+      "instructor": "Eng. Mohamed Amr",
+      "room": "HALL G105",
+      "sections": [
+        12
+      ]
+    },
+    {
+      "id": "ds-fundamentals-15-w2-wed-1500-section-lab-a01",
+      "courseId": "ds-fundamentals",
+      "courseName": "Data Science Fundamentals",
+      "type": "section",
+      "week": "W2",
+      "day": "wed",
+      "start": "15:00",
+      "end": "16:00",
+      "instructor": "Eng. Dina",
+      "room": "LAB A01",
+      "sections": [
+        15
+      ]
+    },
+    {
+      "id": "ai-applications-1-w1-wed-1600-section-hall-a306",
+      "courseId": "ai-applications",
+      "courseName": "Artificial Intelligence Applications",
+      "type": "section",
+      "week": "W1",
+      "day": "wed",
+      "start": "16:00",
+      "end": "17:00",
+      "instructor": "Eng. Mohamed Ammar",
+      "room": "HALL A306",
+      "sections": [
+        1
+      ]
+    },
+    {
+      "id": "java-2-w2-wed-1600-section-hall-g207",
+      "courseId": "java",
+      "courseName": "Java",
+      "type": "section",
+      "week": "W2",
+      "day": "wed",
+      "start": "16:00",
+      "end": "17:00",
+      "instructor": "Eng. Naglaa",
+      "room": "HALL G207",
+      "sections": [
+        2
+      ]
+    },
+    {
+      "id": "artificial-intelligence-3-w1-wed-1600-section-hall-g201",
+      "courseId": "artificial-intelligence",
+      "courseName": "Artificial Intelligence",
+      "type": "section",
+      "week": "W1",
+      "day": "wed",
+      "start": "16:00",
+      "end": "17:00",
+      "instructor": "Eng. Ahmed Amin",
+      "room": "HALL G201",
+      "sections": [
+        3
+      ]
+    },
+    {
+      "id": "artificial-intelligence-3-w2-wed-1600-section-lab-a02",
+      "courseId": "artificial-intelligence",
+      "courseName": "Artificial Intelligence",
+      "type": "section",
+      "week": "W2",
+      "day": "wed",
+      "start": "16:00",
+      "end": "17:00",
+      "instructor": "Eng. Ahmed Amin",
+      "room": "LAB A02",
+      "sections": [
+        3
+      ]
+    },
+    {
+      "id": "expert-systems-4-w1-wed-1600-section-hall-g105",
+      "courseId": "expert-systems",
+      "courseName": "Expert Systems",
+      "type": "section",
+      "week": "W1",
+      "day": "wed",
+      "start": "16:00",
+      "end": "17:00",
+      "instructor": "Eng. Mohamed Amr",
+      "room": "HALL G105",
+      "sections": [
+        4
+      ]
+    },
+    {
+      "id": "expert-systems-4-w2-wed-1600-section-lab-d102",
+      "courseId": "expert-systems",
+      "courseName": "Expert Systems",
+      "type": "section",
+      "week": "W2",
+      "day": "wed",
+      "start": "16:00",
+      "end": "17:00",
+      "instructor": "Eng. Mohamed Amr",
+      "room": "LAB D102",
+      "sections": [
+        4
+      ]
+    },
+    {
+      "id": "expert-systems-5-w1-wed-1600-section-lab-d101",
+      "courseId": "expert-systems",
+      "courseName": "Expert Systems",
+      "type": "section",
+      "week": "W1",
+      "day": "wed",
+      "start": "16:00",
+      "end": "17:00",
+      "instructor": "Eng. Shahd Mohamed",
+      "room": "LAB D101",
+      "sections": [
+        5
+      ]
+    },
+    {
+      "id": "ai-applications-9-w2-wed-1600-section-lab-a01",
+      "courseId": "ai-applications",
+      "courseName": "Artificial Intelligence Applications",
+      "type": "section",
+      "week": "W2",
+      "day": "wed",
+      "start": "16:00",
+      "end": "17:00",
+      "instructor": "Eng. Mohamed Ammar",
+      "room": "LAB A01",
+      "sections": [
+        9
+      ]
+    },
+    {
+      "id": "expert-systems-11-w2-wed-1600-section-hall-a305",
+      "courseId": "expert-systems",
+      "courseName": "Expert Systems",
+      "type": "section",
+      "week": "W2",
+      "day": "wed",
+      "start": "16:00",
+      "end": "17:00",
+      "instructor": "Eng. Shahd Mohamed",
+      "room": "HALL A305",
+      "sections": [
+        11
+      ]
+    },
+    {
+      "id": "artificial-intelligence-14-w1-wed-1600-section-lab-a303",
+      "courseId": "artificial-intelligence",
+      "courseName": "Artificial Intelligence",
+      "type": "section",
+      "week": "W1",
+      "day": "wed",
+      "start": "16:00",
+      "end": "17:00",
+      "instructor": "Eng. Marwa",
+      "room": "LAB A303",
+      "sections": [
+        14
+      ]
+    },
+    {
+      "id": "java-1-w1-wed-1700-section-hall-g207",
+      "courseId": "java",
+      "courseName": "Java",
+      "type": "section",
+      "week": "W1",
+      "day": "wed",
+      "start": "17:00",
+      "end": "18:00",
+      "instructor": "Eng. Naglaa",
+      "room": "HALL G207",
+      "sections": [
+        1
+      ]
+    },
+    {
+      "id": "artificial-intelligence-2-w1-wed-1700-section-hall-a304",
+      "courseId": "artificial-intelligence",
+      "courseName": "Artificial Intelligence",
+      "type": "section",
+      "week": "W1",
+      "day": "wed",
+      "start": "17:00",
+      "end": "18:00",
+      "instructor": "Eng. Ahmed Amin",
+      "room": "HALL A304",
+      "sections": [
+        2
+      ]
+    },
+    {
+      "id": "artificial-intelligence-2-w2-wed-1700-section-lab-a02",
+      "courseId": "artificial-intelligence",
+      "courseName": "Artificial Intelligence",
+      "type": "section",
+      "week": "W2",
+      "day": "wed",
+      "start": "17:00",
+      "end": "18:00",
+      "instructor": "Eng. Ahmed Amin",
+      "room": "LAB A02",
+      "sections": [
+        2
+      ]
+    },
+    {
+      "id": "ai-applications-3-w1-wed-1700-section-hall-g206",
+      "courseId": "ai-applications",
+      "courseName": "Artificial Intelligence Applications",
+      "type": "section",
+      "week": "W1",
+      "day": "wed",
+      "start": "17:00",
+      "end": "18:00",
+      "instructor": "Eng. Mohamed Ammar",
+      "room": "HALL G206",
+      "sections": [
+        3
+      ]
+    },
+    {
+      "id": "ds-fundamentals-4-w1-wed-1700-section-lab-d103",
+      "courseId": "ds-fundamentals",
+      "courseName": "Data Science Fundamentals",
+      "type": "section",
+      "week": "W1",
+      "day": "wed",
+      "start": "17:00",
+      "end": "18:00",
+      "instructor": "Eng. Dina",
+      "room": "LAB D103",
+      "sections": [
+        4
+      ]
+    },
+    {
+      "id": "ds-fundamentals-4-w2-wed-1700-section-hall-g207",
+      "courseId": "ds-fundamentals",
+      "courseName": "Data Science Fundamentals",
+      "type": "section",
+      "week": "W2",
+      "day": "wed",
+      "start": "17:00",
+      "end": "18:00",
+      "instructor": "Eng. Dina",
+      "room": "HALL G207",
+      "sections": [
+        4
+      ]
+    },
+    {
+      "id": "expert-systems-5-w2-wed-1700-section-hall-a306",
+      "courseId": "expert-systems",
+      "courseName": "Expert Systems",
+      "type": "section",
+      "week": "W2",
+      "day": "wed",
+      "start": "17:00",
+      "end": "18:00",
+      "instructor": "Eng. Shahd Mohamed",
+      "room": "HALL A306",
+      "sections": [
+        5
+      ]
+    },
+    {
+      "id": "artificial-intelligence-1-2-3-w1-thu-0900-lecture-a305",
+      "courseId": "artificial-intelligence",
+      "courseName": "Artificial Intelligence",
+      "type": "lecture",
+      "week": "W1",
+      "day": "thu",
+      "start": "09:00",
+      "end": "10:00",
+      "instructor": "Dr. Asmaa Al-Amin",
+      "room": "A305",
+      "sections": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "artificial-intelligence-1-2-3-w2-thu-0900-lecture-a305",
+      "courseId": "artificial-intelligence",
+      "courseName": "Artificial Intelligence",
+      "type": "lecture",
+      "week": "W2",
+      "day": "thu",
+      "start": "09:00",
+      "end": "10:00",
+      "instructor": "Dr. Asmaa Al-Amin",
+      "room": "A305",
+      "sections": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "artificial-intelligence-7-w1-thu-0900-section-lab-d103",
+      "courseId": "artificial-intelligence",
+      "courseName": "Artificial Intelligence",
+      "type": "section",
+      "week": "W1",
+      "day": "thu",
+      "start": "09:00",
+      "end": "10:00",
+      "instructor": "Eng. Marwa",
+      "room": "LAB D103",
+      "sections": [
+        7
+      ]
+    },
+    {
+      "id": "artificial-intelligence-7-w2-thu-0900-section-hall-g208",
+      "courseId": "artificial-intelligence",
+      "courseName": "Artificial Intelligence",
+      "type": "section",
+      "week": "W2",
+      "day": "thu",
+      "start": "09:00",
+      "end": "10:00",
+      "instructor": "Eng. Marwa",
+      "room": "HALL G208",
+      "sections": [
+        7
+      ]
+    },
+    {
+      "id": "artificial-intelligence-8-w2-thu-0900-section-lab-d104",
+      "courseId": "artificial-intelligence",
+      "courseName": "Artificial Intelligence",
+      "type": "section",
+      "week": "W2",
+      "day": "thu",
+      "start": "09:00",
+      "end": "10:00",
+      "instructor": "Eng. Ahmed Amin",
+      "room": "LAB D104",
+      "sections": [
+        8
+      ]
+    },
+    {
+      "id": "java-9-w1-thu-0900-section-lab-d104",
+      "courseId": "java",
+      "courseName": "Java",
+      "type": "section",
+      "week": "W1",
+      "day": "thu",
+      "start": "09:00",
+      "end": "10:00",
+      "instructor": "Eng. Mohamed Omar",
+      "room": "LAB D104",
+      "sections": [
+        9
+      ]
+    },
+    {
+      "id": "ai-applications-10-w2-thu-0900-section-lab-d101",
+      "courseId": "ai-applications",
+      "courseName": "Artificial Intelligence Applications",
+      "type": "section",
+      "week": "W2",
+      "day": "thu",
+      "start": "09:00",
+      "end": "10:00",
+      "instructor": "Eng. Mohamed Ammar",
+      "room": "LAB D101",
+      "sections": [
+        10
+      ]
+    },
+    {
+      "id": "java-11-w2-thu-0900-section-hydrolic-lab",
+      "courseId": "java",
+      "courseName": "Java",
+      "type": "section",
+      "week": "W2",
+      "day": "thu",
+      "start": "09:00",
+      "end": "10:00",
+      "instructor": "Eng. Mohamed Omar",
+      "room": "Hydrolic Lab",
+      "sections": [
+        11
+      ]
+    },
+    {
+      "id": "ai-applications-12-w1-thu-0900-section-hydrolic-lab",
+      "courseId": "ai-applications",
+      "courseName": "Artificial Intelligence Applications",
+      "type": "section",
+      "week": "W1",
+      "day": "thu",
+      "start": "09:00",
+      "end": "10:00",
+      "instructor": "Eng. Mohamed Ammar",
+      "room": "Hydrolic Lab",
+      "sections": [
+        12
+      ]
+    },
+    {
+      "id": "ds-fundamentals-15-w1-thu-0900-section-lab-a02",
+      "courseId": "ds-fundamentals",
+      "courseName": "Data Science Fundamentals",
+      "type": "section",
+      "week": "W1",
+      "day": "thu",
+      "start": "09:00",
+      "end": "10:00",
+      "instructor": "Eng. Dina",
+      "room": "LAB A02",
+      "sections": [
+        15
+      ]
+    },
+    {
+      "id": "expert-systems-2-w1-thu-1000-section-lab-d103",
+      "courseId": "expert-systems",
+      "courseName": "Expert Systems",
+      "type": "section",
+      "week": "W1",
+      "day": "thu",
+      "start": "10:00",
+      "end": "11:00",
+      "instructor": "Eng. Mohamed Amr",
+      "room": "LAB D103",
+      "sections": [
+        2
+      ]
+    },
+    {
+      "id": "expert-systems-2-w2-thu-1000-section-hall-g208",
+      "courseId": "expert-systems",
+      "courseName": "Expert Systems",
+      "type": "section",
+      "week": "W2",
+      "day": "thu",
+      "start": "10:00",
+      "end": "11:00",
+      "instructor": "Eng. Mohamed Amr",
+      "room": "HALL G208",
+      "sections": [
+        2
+      ]
+    },
+    {
+      "id": "artificial-intelligence-4-5-6-7-w1-thu-1000-lecture-a305",
+      "courseId": "artificial-intelligence",
+      "courseName": "Artificial Intelligence",
+      "type": "lecture",
+      "week": "W1",
+      "day": "thu",
+      "start": "10:00",
+      "end": "11:00",
+      "instructor": "Dr. Asmaa Al-Amin",
+      "room": "A305",
+      "sections": [
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "id": "artificial-intelligence-4-5-6-7-w2-thu-1000-lecture-a305",
+      "courseId": "artificial-intelligence",
+      "courseName": "Artificial Intelligence",
+      "type": "lecture",
+      "week": "W2",
+      "day": "thu",
+      "start": "10:00",
+      "end": "11:00",
+      "instructor": "Dr. Asmaa Al-Amin",
+      "room": "A305",
+      "sections": [
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "id": "artificial-intelligence-8-w1-thu-1000-section-lab-d104",
+      "courseId": "artificial-intelligence",
+      "courseName": "Artificial Intelligence",
+      "type": "section",
+      "week": "W1",
+      "day": "thu",
+      "start": "10:00",
+      "end": "11:00",
+      "instructor": "Eng. Ahmed Amin",
+      "room": "LAB D104",
+      "sections": [
+        8
+      ]
+    },
+    {
+      "id": "ai-applications-9-w1-thu-1000-section-hall-g208",
+      "courseId": "ai-applications",
+      "courseName": "Artificial Intelligence Applications",
+      "type": "section",
+      "week": "W1",
+      "day": "thu",
+      "start": "10:00",
+      "end": "11:00",
+      "instructor": "Eng. Mohamed Ammar",
+      "room": "HALL G208",
+      "sections": [
+        9
+      ]
+    },
+    {
+      "id": "java-10-w1-thu-1000-section-lab-d102",
+      "courseId": "java",
+      "courseName": "Java",
+      "type": "section",
+      "week": "W1",
+      "day": "thu",
+      "start": "10:00",
+      "end": "11:00",
+      "instructor": "Eng. Mohamed Omar",
+      "room": "LAB D102",
+      "sections": [
+        10
+      ]
+    },
+    {
+      "id": "expert-systems-11-w1-thu-1000-section-lab-d101",
+      "courseId": "expert-systems",
+      "courseName": "Expert Systems",
+      "type": "section",
+      "week": "W1",
+      "day": "thu",
+      "start": "10:00",
+      "end": "11:00",
+      "instructor": "Eng. Shahd Mohamed",
+      "room": "LAB D101",
+      "sections": [
+        11
+      ]
+    },
+    {
+      "id": "java-12-w1-thu-1000-section-d105",
+      "courseId": "java",
+      "courseName": "Java",
+      "type": "section",
+      "week": "W1",
+      "day": "thu",
+      "start": "10:00",
+      "end": "11:00",
+      "instructor": "Eng. Mohamed Omar",
+      "room": "D105",
+      "sections": [
+        12
+      ]
+    },
+    {
+      "id": "expert-systems-15-w2-thu-1000-section-lab-a02",
+      "courseId": "expert-systems",
+      "courseName": "Expert Systems",
+      "type": "section",
+      "week": "W2",
+      "day": "thu",
+      "start": "10:00",
+      "end": "11:00",
+      "instructor": "Eng. Shahd Mohamed",
+      "room": "LAB A02",
+      "sections": [
+        15
+      ]
+    },
+    {
+      "id": "artificial-intelligence-4-w1-thu-1100-section-lab-d102",
+      "courseId": "artificial-intelligence",
+      "courseName": "Artificial Intelligence",
+      "type": "section",
+      "week": "W1",
+      "day": "thu",
+      "start": "11:00",
+      "end": "12:00",
+      "instructor": "Eng. Marwa",
+      "room": "LAB D102",
+      "sections": [
+        4
+      ]
+    },
+    {
+      "id": "artificial-intelligence-5-w2-thu-1100-section-lab-d105",
+      "courseId": "artificial-intelligence",
+      "courseName": "Artificial Intelligence",
+      "type": "section",
+      "week": "W2",
+      "day": "thu",
+      "start": "11:00",
+      "end": "12:00",
+      "instructor": "Eng. Ahmed Amin",
+      "room": "LAB D105",
+      "sections": [
+        5
+      ]
+    },
+    {
+      "id": "ai-applications-6-w1-thu-1100-section-lab-d105",
+      "courseId": "ai-applications",
+      "courseName": "Artificial Intelligence Applications",
+      "type": "section",
+      "week": "W1",
+      "day": "thu",
+      "start": "11:00",
+      "end": "12:00",
+      "instructor": "Eng. Mohamed Ammar",
+      "room": "LAB D105",
+      "sections": [
+        6
+      ]
+    },
+    {
+      "id": "ds-fundamentals-7-w2-thu-1100-section-lab-d102",
+      "courseId": "ds-fundamentals",
+      "courseName": "Data Science Fundamentals",
+      "type": "section",
+      "week": "W2",
+      "day": "thu",
+      "start": "11:00",
+      "end": "12:00",
+      "instructor": "Eng. Mohamed Amr",
+      "room": "LAB D102",
+      "sections": [
+        7
+      ]
+    },
+    {
+      "id": "artificial-intelligence-8-9-10-11-w1-thu-1100-lecture-f-seminar",
+      "courseId": "artificial-intelligence",
+      "courseName": "Artificial Intelligence",
+      "type": "lecture",
+      "week": "W1",
+      "day": "thu",
+      "start": "11:00",
+      "end": "12:00",
+      "instructor": "Dr. Asmaa Al-Amin",
+      "room": "F-SEMINAR",
+      "sections": [
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "id": "artificial-intelligence-8-9-10-11-w2-thu-1100-lecture-f-seminar",
+      "courseId": "artificial-intelligence",
+      "courseName": "Artificial Intelligence",
+      "type": "lecture",
+      "week": "W2",
+      "day": "thu",
+      "start": "11:00",
+      "end": "12:00",
+      "instructor": "Dr. Asmaa Al-Amin",
+      "room": "F-SEMINAR",
+      "sections": [
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "id": "java-12-w2-thu-1100-section-lab-a01",
+      "courseId": "java",
+      "courseName": "Java",
+      "type": "section",
+      "week": "W2",
+      "day": "thu",
+      "start": "11:00",
+      "end": "12:00",
+      "instructor": "Eng. Mohamed Omar",
+      "room": "LAB A01",
+      "sections": [
+        12
+      ]
+    },
+    {
+      "id": "ai-applications-14-w1-thu-1100-section-lab-d105",
+      "courseId": "ai-applications",
+      "courseName": "Artificial Intelligence Applications",
+      "type": "section",
+      "week": "W1",
+      "day": "thu",
+      "start": "11:00",
+      "end": "12:00",
+      "instructor": "Eng. Mohamed Ammar",
+      "room": "LAB D105",
+      "sections": [
+        14
+      ]
+    },
+    {
+      "id": "artificial-intelligence-15-w2-thu-1100-section-lab-a02",
+      "courseId": "artificial-intelligence",
+      "courseName": "Artificial Intelligence",
+      "type": "section",
+      "week": "W2",
+      "day": "thu",
+      "start": "11:00",
+      "end": "12:00",
+      "instructor": "Eng. Marwa",
+      "room": "LAB A02",
+      "sections": [
+        15
+      ]
+    },
+    {
+      "id": "java-1-2-3-4-5-w1-thu-1200-lecture-a-new",
+      "courseId": "java",
+      "courseName": "Java",
+      "type": "lecture",
+      "week": "W1",
+      "day": "thu",
+      "start": "12:00",
+      "end": "13:00",
+      "instructor": "Dr. Simon Ezzat",
+      "room": "A-New",
+      "sections": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "java-1-2-3-4-5-w2-thu-1200-lecture-a-new",
+      "courseId": "java",
+      "courseName": "Java",
+      "type": "lecture",
+      "week": "W2",
+      "day": "thu",
+      "start": "12:00",
+      "end": "13:00",
+      "instructor": "Dr. Simon Ezzat",
+      "room": "A-New",
+      "sections": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "ai-applications-6-w2-thu-1200-section-hall-g104",
+      "courseId": "ai-applications",
+      "courseName": "Artificial Intelligence Applications",
+      "type": "section",
+      "week": "W2",
+      "day": "thu",
+      "start": "12:00",
+      "end": "13:00",
+      "instructor": "Eng. Mohamed Ammar",
+      "room": "HALL G104",
+      "sections": [
+        6
+      ]
+    },
+    {
+      "id": "ai-applications-7-w1-thu-1200-section-lab-d102",
+      "courseId": "ai-applications",
+      "courseName": "Artificial Intelligence Applications",
+      "type": "section",
+      "week": "W1",
+      "day": "thu",
+      "start": "12:00",
+      "end": "13:00",
+      "instructor": "Eng. Mohamed Ammar",
+      "room": "LAB D102",
+      "sections": [
+        7
+      ]
+    },
+    {
+      "id": "ai-applications-7-w2-thu-1200-section-hall-g104",
+      "courseId": "ai-applications",
+      "courseName": "Artificial Intelligence Applications",
+      "type": "section",
+      "week": "W2",
+      "day": "thu",
+      "start": "12:00",
+      "end": "13:00",
+      "instructor": "Eng. Mohamed Ammar",
+      "room": "HALL G104",
+      "sections": [
+        7
+      ]
+    },
+    {
+      "id": "java-10-w2-thu-1200-section-hall-g208",
+      "courseId": "java",
+      "courseName": "Java",
+      "type": "section",
+      "week": "W2",
+      "day": "thu",
+      "start": "12:00",
+      "end": "13:00",
+      "instructor": "Eng. Mohamed Omar",
+      "room": "HALL G208",
+      "sections": [
+        10
+      ]
+    },
+    {
+      "id": "ds-fundamentals-11-w2-thu-1200-section-lab-a02",
+      "courseId": "ds-fundamentals",
+      "courseName": "Data Science Fundamentals",
+      "type": "section",
+      "week": "W2",
+      "day": "thu",
+      "start": "12:00",
+      "end": "13:00",
+      "instructor": "Eng. Ahmed Amin",
+      "room": "LAB A02",
+      "sections": [
+        11
+      ]
+    },
+    {
+      "id": "artificial-intelligence-12-13-14-15-w1-thu-1200-lecture-f-seminar",
+      "courseId": "artificial-intelligence",
+      "courseName": "Artificial Intelligence",
+      "type": "lecture",
+      "week": "W1",
+      "day": "thu",
+      "start": "12:00",
+      "end": "13:00",
+      "instructor": "Dr. Asmaa Al-Amin",
+      "room": "F-SEMINAR",
+      "sections": [
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "id": "artificial-intelligence-12-13-14-15-w2-thu-1200-lecture-f-seminar",
+      "courseId": "artificial-intelligence",
+      "courseName": "Artificial Intelligence",
+      "type": "lecture",
+      "week": "W2",
+      "day": "thu",
+      "start": "12:00",
+      "end": "13:00",
+      "instructor": "Dr. Asmaa Al-Amin",
+      "room": "F-SEMINAR",
+      "sections": [
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "id": "java-5-w1-thu-1300-section-hall-d105",
+      "courseId": "java",
+      "courseName": "Java",
+      "type": "section",
+      "week": "W1",
+      "day": "thu",
+      "start": "13:00",
+      "end": "14:00",
+      "instructor": "Eng. Naglaa",
+      "room": "HALL D105",
+      "sections": [
+        5
+      ]
+    },
+    {
+      "id": "java-6-7-8-9-10-w1-thu-1300-lecture-a-new",
+      "courseId": "java",
+      "courseName": "Java",
+      "type": "lecture",
+      "week": "W1",
+      "day": "thu",
+      "start": "13:00",
+      "end": "14:00",
+      "instructor": "Dr. Simon Ezzat",
+      "room": "A-New",
+      "sections": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "id": "java-6-7-8-9-10-w2-thu-1300-lecture-a-new",
+      "courseId": "java",
+      "courseName": "Java",
+      "type": "lecture",
+      "week": "W2",
+      "day": "thu",
+      "start": "13:00",
+      "end": "14:00",
+      "instructor": "Dr. Simon Ezzat",
+      "room": "A-New",
+      "sections": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "id": "artificial-intelligence-11-w1-thu-1300-section-lab-d103",
+      "courseId": "artificial-intelligence",
+      "courseName": "Artificial Intelligence",
+      "type": "section",
+      "week": "W1",
+      "day": "thu",
+      "start": "13:00",
+      "end": "14:00",
+      "instructor": "Eng. Marwa",
+      "room": "LAB D103",
+      "sections": [
+        11
+      ]
+    },
+    {
+      "id": "artificial-intelligence-11-w2-thu-1300-section-hall-g208",
+      "courseId": "artificial-intelligence",
+      "courseName": "Artificial Intelligence",
+      "type": "section",
+      "week": "W2",
+      "day": "thu",
+      "start": "13:00",
+      "end": "14:00",
+      "instructor": "Eng. Marwa",
+      "room": "HALL G208",
+      "sections": [
+        11
+      ]
+    },
+    {
+      "id": "ai-applications-12-w2-thu-1300-section-lab-d101",
+      "courseId": "ai-applications",
+      "courseName": "Artificial Intelligence Applications",
+      "type": "section",
+      "week": "W2",
+      "day": "thu",
+      "start": "13:00",
+      "end": "14:00",
+      "instructor": "Eng. Mohamed Ammar",
+      "room": "LAB D101",
+      "sections": [
+        12
+      ]
+    },
+    {
+      "id": "ai-applications-14-w2-thu-1300-section-lab-d101",
+      "courseId": "ai-applications",
+      "courseName": "Artificial Intelligence Applications",
+      "type": "section",
+      "week": "W2",
+      "day": "thu",
+      "start": "13:00",
+      "end": "14:00",
+      "instructor": "Eng. Mohamed Ammar",
+      "room": "LAB D101",
+      "sections": [
+        14
+      ]
+    },
+    {
+      "id": "java-15-w2-thu-1300-section-lab-a01",
+      "courseId": "java",
+      "courseName": "Java",
+      "type": "section",
+      "week": "W2",
+      "day": "thu",
+      "start": "13:00",
+      "end": "14:00",
+      "instructor": "Eng. Mohamed Omar",
+      "room": "LAB A01",
+      "sections": [
+        15
+      ]
+    },
+    {
+      "id": "ds-fundamentals-5-w1-thu-1400-section-lab-d105",
+      "courseId": "ds-fundamentals",
+      "courseName": "Data Science Fundamentals",
+      "type": "section",
+      "week": "W1",
+      "day": "thu",
+      "start": "14:00",
+      "end": "15:00",
+      "instructor": "Eng. Mohamed Amr",
+      "room": "LAB D105",
+      "sections": [
+        5
+      ]
+    },
+    {
+      "id": "java-7-w1-thu-1400-section-lab-d105",
+      "courseId": "java",
+      "courseName": "Java",
+      "type": "section",
+      "week": "W1",
+      "day": "thu",
+      "start": "14:00",
+      "end": "15:00",
+      "instructor": "Eng. Naglaa",
+      "room": "LAB D105",
+      "sections": [
+        7
+      ]
+    },
+    {
+      "id": "java-7-w2-thu-1400-section-hall-c103",
+      "courseId": "java",
+      "courseName": "Java",
+      "type": "section",
+      "week": "W2",
+      "day": "thu",
+      "start": "14:00",
+      "end": "15:00",
+      "instructor": "Eng. Naglaa",
+      "room": "HALL C103",
+      "sections": [
+        7
+      ]
+    },
+    {
+      "id": "ai-applications-8-w2-thu-1400-section-hall-a307",
+      "courseId": "ai-applications",
+      "courseName": "Artificial Intelligence Applications",
+      "type": "section",
+      "week": "W2",
+      "day": "thu",
+      "start": "14:00",
+      "end": "15:00",
+      "instructor": "Eng. Mohamed Ammar",
+      "room": "HALL A307",
+      "sections": [
+        8
+      ]
+    },
+    {
+      "id": "artificial-intelligence-9-w1-thu-1400-section-lab-d102",
+      "courseId": "artificial-intelligence",
+      "courseName": "Artificial Intelligence",
+      "type": "section",
+      "week": "W1",
+      "day": "thu",
+      "start": "14:00",
+      "end": "15:00",
+      "instructor": "Eng. Marwa",
+      "room": "LAB D102",
+      "sections": [
+        9
+      ]
+    },
+    {
+      "id": "ai-applications-10-w1-thu-1400-section-hall-g207",
+      "courseId": "ai-applications",
+      "courseName": "Artificial Intelligence Applications",
+      "type": "section",
+      "week": "W1",
+      "day": "thu",
+      "start": "14:00",
+      "end": "15:00",
+      "instructor": "Eng. Mohamed Ammar",
+      "room": "HALL G207",
+      "sections": [
+        10
+      ]
+    },
+    {
+      "id": "java-11-12-13-14-15-w1-thu-1400-lecture-a-new",
+      "courseId": "java",
+      "courseName": "Java",
+      "type": "lecture",
+      "week": "W1",
+      "day": "thu",
+      "start": "14:00",
+      "end": "15:00",
+      "instructor": "Dr. Simon Ezzat",
+      "room": "A-New",
+      "sections": [
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "id": "java-11-12-13-14-15-w2-thu-1400-lecture-a-new",
+      "courseId": "java",
+      "courseName": "Java",
+      "type": "lecture",
+      "week": "W2",
+      "day": "thu",
+      "start": "14:00",
+      "end": "15:00",
+      "instructor": "Dr. Simon Ezzat",
+      "room": "A-New",
+      "sections": [
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "id": "expert-systems-7-w1-thu-1500-section-lab-d101",
+      "courseId": "expert-systems",
+      "courseName": "Expert Systems",
+      "type": "section",
+      "week": "W1",
+      "day": "thu",
+      "start": "15:00",
+      "end": "16:00",
+      "instructor": "Eng. Mohamed Amr",
+      "room": "LAB D101",
+      "sections": [
+        7
+      ]
+    },
+    {
+      "id": "expert-systems-7-w2-thu-1500-section-hall-g105",
+      "courseId": "expert-systems",
+      "courseName": "Expert Systems",
+      "type": "section",
+      "week": "W2",
+      "day": "thu",
+      "start": "15:00",
+      "end": "16:00",
+      "instructor": "Eng. Mohamed Amr",
+      "room": "HALL G105",
+      "sections": [
+        7
+      ]
+    },
+    {
+      "id": "artificial-intelligence-10-w1-thu-1500-section-hall-g105",
+      "courseId": "artificial-intelligence",
+      "courseName": "Artificial Intelligence",
+      "type": "section",
+      "week": "W1",
+      "day": "thu",
+      "start": "15:00",
+      "end": "16:00",
+      "instructor": "Eng. Marwa",
+      "room": "HALL G105",
+      "sections": [
+        10
+      ]
+    },
+    {
+      "id": "artificial-intelligence-10-w2-thu-1500-section-lab-a02",
+      "courseId": "artificial-intelligence",
+      "courseName": "Artificial Intelligence",
+      "type": "section",
+      "week": "W2",
+      "day": "thu",
+      "start": "15:00",
+      "end": "16:00",
+      "instructor": "Eng. Marwa",
+      "room": "LAB A02",
+      "sections": [
+        10
+      ]
+    },
+    {
+      "id": "ai-applications-11-w1-thu-1500-section-hall-a303",
+      "courseId": "ai-applications",
+      "courseName": "Artificial Intelligence Applications",
+      "type": "section",
+      "week": "W1",
+      "day": "thu",
+      "start": "15:00",
+      "end": "16:00",
+      "instructor": "Eng. Mohamed Ammar",
+      "room": "HALL A303",
+      "sections": [
+        11
+      ]
+    },
+    {
+      "id": "expert-systems-14-w1-thu-1500-section-hall-g202",
+      "courseId": "expert-systems",
+      "courseName": "Expert Systems",
+      "type": "section",
+      "week": "W1",
+      "day": "thu",
+      "start": "15:00",
+      "end": "16:00",
+      "instructor": "Eng. Shahd Mohamed",
+      "room": "HALL G202",
+      "sections": [
+        14
+      ]
+    },
+    {
+      "id": "ai-applications-15-w2-thu-1500-section-hall-a304",
+      "courseId": "ai-applications",
+      "courseName": "Artificial Intelligence Applications",
+      "type": "section",
+      "week": "W2",
+      "day": "thu",
+      "start": "15:00",
+      "end": "16:00",
+      "instructor": "Eng. Mohamed Ammar",
+      "room": "HALL A304",
+      "sections": [
+        15
+      ]
+    },
+    {
+      "id": "java-3-w2-thu-1600-section-hall-a305",
+      "courseId": "java",
+      "courseName": "Java",
+      "type": "section",
+      "week": "W2",
+      "day": "thu",
+      "start": "16:00",
+      "end": "17:00",
+      "instructor": "Eng. Naglaa",
+      "room": "HALL A305",
+      "sections": [
+        3
+      ]
+    },
+    {
+      "id": "ds-fundamentals-5-w2-thu-1600-section-lab-d102",
+      "courseId": "ds-fundamentals",
+      "courseName": "Data Science Fundamentals",
+      "type": "section",
+      "week": "W2",
+      "day": "thu",
+      "start": "16:00",
+      "end": "17:00",
+      "instructor": "Eng. Mohamed Amr",
+      "room": "LAB D102",
+      "sections": [
+        5
+      ]
+    },
+    {
+      "id": "expert-systems-9-w1-thu-1600-section-hall-g207",
+      "courseId": "expert-systems",
+      "courseName": "Expert Systems",
+      "type": "section",
+      "week": "W1",
+      "day": "thu",
+      "start": "16:00",
+      "end": "17:00",
+      "instructor": "Eng. Mohamed Amr",
+      "room": "HALL G207",
+      "sections": [
+        9
+      ]
+    },
+    {
+      "id": "artificial-intelligence-12-w1-thu-1600-section-lab-d103",
+      "courseId": "artificial-intelligence",
+      "courseName": "Artificial Intelligence",
+      "type": "section",
+      "week": "W1",
+      "day": "thu",
+      "start": "16:00",
+      "end": "17:00",
+      "instructor": "Eng. Marwa",
+      "room": "LAB D103",
+      "sections": [
+        12
+      ]
+    },
+    {
+      "id": "artificial-intelligence-12-w2-thu-1600-section-hall-g207",
+      "courseId": "artificial-intelligence",
+      "courseName": "Artificial Intelligence",
+      "type": "section",
+      "week": "W2",
+      "day": "thu",
+      "start": "16:00",
+      "end": "17:00",
+      "instructor": "Eng. Marwa",
+      "room": "HALL G207",
+      "sections": [
+        12
+      ]
+    },
+    {
+      "id": "ds-fundamentals-7-w1-thu-1700-section-hall-g104",
+      "courseId": "ds-fundamentals",
+      "courseName": "Data Science Fundamentals",
+      "type": "section",
+      "week": "W1",
+      "day": "thu",
+      "start": "17:00",
+      "end": "18:00",
+      "instructor": "Eng. Mohamed Amr",
+      "room": "HALL G104",
+      "sections": [
+        7
+      ]
+    },
+    {
+      "id": "expert-systems-8-w2-thu-1700-section-lab-d105",
+      "courseId": "expert-systems",
+      "courseName": "Expert Systems",
+      "type": "section",
+      "week": "W2",
+      "day": "thu",
+      "start": "17:00",
+      "end": "18:00",
+      "instructor": "Eng. Mohamed Amr",
+      "room": "LAB D105",
+      "sections": [
+        8
+      ]
+    },
+    {
+      "id": "ds-fundamentals-10-w1-thu-1700-section-lab-d104",
+      "courseId": "ds-fundamentals",
+      "courseName": "Data Science Fundamentals",
+      "type": "section",
+      "week": "W1",
+      "day": "thu",
+      "start": "17:00",
+      "end": "18:00",
+      "instructor": "Eng. Dina",
+      "room": "LAB D104",
+      "sections": [
+        10
+      ]
+    },
+    {
+      "id": "ds-fundamentals-10-w2-thu-1700-section-hall-g208",
+      "courseId": "ds-fundamentals",
+      "courseName": "Data Science Fundamentals",
+      "type": "section",
+      "week": "W2",
+      "day": "thu",
+      "start": "17:00",
+      "end": "18:00",
+      "instructor": "Eng. Dina",
+      "room": "HALL G208",
+      "sections": [
+        10
+      ]
+    },
+    {
+      "id": "ds-fundamentals-11-w1-thu-1700-section-hall-g207",
+      "courseId": "ds-fundamentals",
+      "courseName": "Data Science Fundamentals",
+      "type": "section",
+      "week": "W1",
+      "day": "thu",
+      "start": "17:00",
+      "end": "18:00",
+      "instructor": "Eng. Ahmed Amin",
+      "room": "HALL G207",
+      "sections": [
+        11
+      ]
+    },
+    {
+      "id": "expert-systems-12-w1-thu-1700-section-lab-d105",
+      "courseId": "expert-systems",
+      "courseName": "Expert Systems",
+      "type": "section",
+      "week": "W1",
+      "day": "thu",
+      "start": "17:00",
+      "end": "18:00",
+      "instructor": "Eng. Shahd Mohamed",
+      "room": "LAB D105",
+      "sections": [
+        12
+      ]
+    },
+    {
+      "id": "expert-systems-12-w2-thu-1700-section-hall-g207",
+      "courseId": "expert-systems",
+      "courseName": "Expert Systems",
+      "type": "section",
+      "week": "W2",
+      "day": "thu",
+      "start": "17:00",
+      "end": "18:00",
+      "instructor": "Eng. Shahd Mohamed",
+      "room": "HALL G207",
+      "sections": [
+        12
+      ]
+    },
+    {
+      "id": "artificial-intelligence-13-w1-thu-1700-section-hall-a306",
+      "courseId": "artificial-intelligence",
+      "courseName": "Artificial Intelligence",
+      "type": "section",
+      "week": "W1",
+      "day": "thu",
+      "start": "17:00",
+      "end": "18:00",
+      "instructor": "Eng. Marwa",
+      "room": "HALL A306",
+      "sections": [
+        13
+      ]
+    },
+    {
+      "id": "java-14-w1-thu-1700-section-hall-a304",
+      "courseId": "java",
+      "courseName": "Java",
+      "type": "section",
+      "week": "W1",
+      "day": "thu",
+      "start": "17:00",
+      "end": "18:00",
+      "instructor": "Eng. Mohamed Omar",
+      "room": "HALL A304",
+      "sections": [
+        14
+      ]
+    },
+    {
+      "id": "history-of-technology-1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-w1-fri-0900-lecture-online-o-l",
+      "courseId": "history-of-technology",
+      "courseName": "History Of Technology",
+      "type": "lecture",
+      "week": "W1",
+      "day": "fri",
+      "start": "09:00",
+      "end": "10:00",
+      "instructor": "Dr. Muhammed Salah",
+      "room": "Online (O.L)",
+      "sections": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "id": "history-of-technology-1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-w2-fri-0900-lecture-online-o-l",
+      "courseId": "history-of-technology",
+      "courseName": "History Of Technology",
+      "type": "lecture",
+      "week": "W2",
+      "day": "fri",
+      "start": "09:00",
+      "end": "10:00",
+      "instructor": "Dr. Muhammed Salah",
+      "room": "Online (O.L)",
+      "sections": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "id": "principles-of-technology-1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-w1-fri-1000-lecture-online-o-l",
+      "courseId": "principles-of-technology",
+      "courseName": "Principles of Technology",
+      "type": "lecture",
+      "week": "W1",
+      "day": "fri",
+      "start": "10:00",
+      "end": "11:00",
+      "instructor": "Dr. Mahmoud Samy",
+      "room": "Online (O.L)",
+      "sections": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "id": "principles-of-technology-1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-w2-fri-1000-lecture-online-o-l",
+      "courseId": "principles-of-technology",
+      "courseName": "Principles of Technology",
+      "type": "lecture",
+      "week": "W2",
+      "day": "fri",
+      "start": "10:00",
+      "end": "11:00",
+      "instructor": "Dr. Mahmoud Samy",
+      "room": "Online (O.L)",
+      "sections": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "id": "occupational-health-and-safety-1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-w1-fri-1100-lecture-online-o-l",
+      "courseId": "occupational-health-and-safety",
+      "courseName": "Occupational Health and Safety",
+      "type": "lecture",
+      "week": "W1",
+      "day": "fri",
+      "start": "11:00",
+      "end": "12:00",
+      "instructor": "Dr. Hussein Al-Sayed",
+      "room": "Online (O.L)",
+      "sections": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "id": "occupational-health-and-safety-1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-w2-fri-1100-lecture-online-o-l",
+      "courseId": "occupational-health-and-safety",
+      "courseName": "Occupational Health and Safety",
+      "type": "lecture",
+      "week": "W2",
+      "day": "fri",
+      "start": "11:00",
+      "end": "12:00",
+      "instructor": "Dr. Hussein Al-Sayed",
+      "room": "Online (O.L)",
+      "sections": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    }
+  ]
+}

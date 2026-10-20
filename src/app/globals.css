@@ -1,0 +1,87 @@
+@import "tailwindcss";
+
+:root {
+  --background: oklch(0.985 0.004 255);
+  --foreground: oklch(0.22 0.03 265);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.22 0.03 265);
+  --primary: oklch(0.52 0.19 265);
+  --primary-foreground: oklch(0.99 0 0);
+  --secondary: oklch(0.96 0.01 260);
+  --secondary-foreground: oklch(0.32 0.03 265);
+  --muted: oklch(0.965 0.008 260);
+  --muted-foreground: oklch(0.52 0.02 265);
+  --accent: oklch(0.95 0.03 180);
+  --accent-foreground: oklch(0.28 0.05 180);
+  --border: oklch(0.9 0.012 260);
+  --input: oklch(0.9 0.012 260);
+  --ring: oklch(0.52 0.19 265);
+  --radius: 0.9rem;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+  --font-sans: var(--font-cairo), ui-sans-serif, system-ui, sans-serif;
+}
+
+* {
+  border-color: var(--border);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--foreground);
+  background-color: var(--background);
+  background-image:
+    radial-gradient(55rem 32rem at 100% -8%, oklch(0.92 0.055 268 / 0.55), transparent 62%),
+    radial-gradient(45rem 28rem at -8% 6%, oklch(0.94 0.045 175 / 0.5), transparent 58%);
+  background-attachment: fixed;
+}
+
+::selection {
+  color: var(--primary-foreground);
+  background-color: var(--primary);
+}
+
+select {
+  background-image:
+    linear-gradient(45deg, transparent 50%, var(--muted-foreground) 50%),
+    linear-gradient(135deg, var(--muted-foreground) 50%, transparent 50%);
+  background-position:
+    calc(1rem) calc(50% - 2px),
+    calc(1rem - 5px) calc(50% - 2px);
+  background-size: 5px 5px, 5px 5px;
+  background-repeat: no-repeat;
+  appearance: none;
+}
+
+@media (min-width: 640px) {
+  select {
+    background-position:
+      calc(1.25rem) calc(50% - 2px),
+      calc(1.25rem - 5px) calc(50% - 2px);
+  }
+}
