@@ -16,7 +16,7 @@ export function EmptyPlan({ query }: { query: PlanQuery }) {
     <div className="space-y-6">
       <Link
         href={`/?${planQueryString(query)}`}
-        className="inline-flex h-9 items-center gap-2 rounded-lg border border-border bg-white/75 px-3 text-xs font-semibold transition hover:border-primary/30 hover:bg-white"
+        className="inline-flex h-9 items-center gap-2 rounded-lg border border-border bg-white/75 px-3 text-xs font-semibold transition hover:border-primary/30 hover:bg-white dark:bg-white/[0.04] dark:hover:bg-white/[0.08]"
       >
         <ArrowRight className="size-4" />
         تعديل البيانات
@@ -47,7 +47,7 @@ export function EmptyPlan({ query }: { query: PlanQuery }) {
         </div>
       </Card>
 
-      <div className="flex items-start gap-2 rounded-2xl border border-indigo-100/80 bg-indigo-50/60 p-4 text-xs leading-6 text-indigo-800">
+      <div className="flex items-start gap-2 rounded-2xl border border-emerald-200/70 bg-emerald-50/60 p-4 text-xs leading-6 text-emerald-800 dark:border-emerald-500/20 dark:bg-emerald-500/10 dark:text-emerald-200">
         <Info className="mt-0.5 size-4 shrink-0" />
         <span>
           البيانات الكاملة متاحة لأيام الجمعة والسبت والأربع والخميس.

@@ -1,22 +1,44 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 :root {
-  --background: oklch(0.985 0.004 255);
-  --foreground: oklch(0.22 0.03 265);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.22 0.03 265);
-  --primary: oklch(0.52 0.19 265);
-  --primary-foreground: oklch(0.99 0 0);
-  --secondary: oklch(0.96 0.01 260);
-  --secondary-foreground: oklch(0.32 0.03 265);
-  --muted: oklch(0.965 0.008 260);
-  --muted-foreground: oklch(0.52 0.02 265);
-  --accent: oklch(0.95 0.03 180);
-  --accent-foreground: oklch(0.28 0.05 180);
-  --border: oklch(0.9 0.012 260);
-  --input: oklch(0.9 0.012 260);
-  --ring: oklch(0.52 0.19 265);
+  color-scheme: light;
+  --background: #ffffff;
+  --foreground: #0a0a0a;
+  --card: #ffffff;
+  --card-foreground: #0a0a0a;
+  --primary: #0f3d2e;
+  --primary-foreground: #ffffff;
+  --secondary: #eef4f1;
+  --secondary-foreground: #0f3d2e;
+  --muted: #f3f7f4;
+  --muted-foreground: #52655c;
+  --accent: #e3efe9;
+  --accent-foreground: #0f3d2e;
+  --border: #e1e9e4;
+  --input: #e1e9e4;
+  --ring: #0f3d2e;
   --radius: 0.9rem;
+}
+
+.dark {
+  color-scheme: dark;
+  --background: #0a0a0a;
+  --foreground: #f6fbf8;
+  --card: #101613;
+  --card-foreground: #f6fbf8;
+  --primary: #1f8f67;
+  --primary-foreground: #04140d;
+  --secondary: #16211c;
+  --secondary-foreground: #d8ece2;
+  --muted: #141a17;
+  --muted-foreground: #9fb5aa;
+  --accent: #14241d;
+  --accent-foreground: #8fd7b4;
+  --border: #233029;
+  --input: #233029;
+  --ring: #2faa7c;
 }
 
 @theme inline {
@@ -56,9 +78,15 @@ body {
   color: var(--foreground);
   background-color: var(--background);
   background-image:
-    radial-gradient(55rem 32rem at 100% -8%, oklch(0.92 0.055 268 / 0.55), transparent 62%),
-    radial-gradient(45rem 28rem at -8% 6%, oklch(0.94 0.045 175 / 0.5), transparent 58%);
+    radial-gradient(55rem 32rem at 100% -8%, rgb(15 61 46 / 0.1), transparent 62%),
+    radial-gradient(45rem 28rem at -8% 6%, rgb(16 185 129 / 0.12), transparent 58%);
   background-attachment: fixed;
+}
+
+.dark body {
+  background-image:
+    radial-gradient(55rem 32rem at 100% -8%, rgb(31 143 103 / 0.18), transparent 62%),
+    radial-gradient(45rem 28rem at -8% 6%, rgb(15 61 46 / 0.35), transparent 58%);
 }
 
 ::selection {

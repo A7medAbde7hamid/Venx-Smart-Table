@@ -57,6 +57,67 @@ test("week filter: W2 plan never contains W1 sessions", () => {
   assert.equal(result.best.metrics.end, "16:00");
 });
 
+test("finish-early prefers 09:00-17:00 over 10:00-17:00", () => {
+  const preferenceSessions: Session[] = [
+    {
+      id: "pref-a-own",
+      courseId: "pref-course-a",
+      courseName: "Preference Course A",
+      type: "section",
+      week: "W1",
+      day: "sat",
+      start: "10:00",
+      end: "11:00",
+      instructor: "Eng. Same",
+      room: "Room 1",
+      sections: [1],
+    },
+    {
+      id: "pref-a-alt",
+      courseId: "pref-course-a",
+      courseName: "Preference Course A",
+      type: "section",
+      week: "W1",
+      day: "sat",
+      start: "09:00",
+      end: "10:00",
+      instructor: "Eng. Same",
+      room: "Room 2",
+      sections: [2],
+    },
+    {
+      id: "pref-b-own",
+      courseId: "pref-course-b",
+      courseName: "Preference Course B",
+      type: "section",
+      week: "W1",
+      day: "sat",
+      start: "16:00",
+      end: "17:00",
+      instructor: "Eng. Other",
+      room: "Room 3",
+      sections: [1],
+    },
+  ];
+
+  const result = planDay(preferenceSessions, {
+    studentSection: 1,
+    week: "W1",
+    day: "sat",
+    strategy: "finish-early",
+  });
+
+  assert.ok(result);
+  assert.equal(result.own.metrics.start, "10:00");
+  assert.equal(result.own.metrics.end, "17:00");
+  assert.equal(result.best.metrics.start, "09:00");
+  assert.equal(result.best.metrics.earliestStart, "09:00");
+  assert.equal(result.best.metrics.end, "17:00");
+  assert.equal(result.best.metrics.spanMinutes, 480);
+  assert.equal(result.endSavedMinutes, 0);
+  assert.ok(result.best.sessions.some((session) => session.id === "pref-a-alt"));
+});
+
 const PLAN_DAYS = ["fri", "sat", "wed", "thu"] as const;
 const SECTIONS = Array.from({ length: 15 }, (_, index) => index + 1);
 const WEEKS = ["W1", "W2"] as const;

@@ -5,6 +5,7 @@ export type PlanStrategy = "finish-early" | "shortest-day";
 export interface PlanMetrics {
   startMinutes: number;
   endMinutes: number;
+  earliestStart: string;
   spanMinutes: number;
   classMinutes: number;
   idleMinutes: number;
@@ -83,6 +84,7 @@ const metricsOf = (sessions: Session[], studentSection: number): PlanMetrics => 
   return {
     startMinutes,
     endMinutes,
+    earliestStart: toTime(startMinutes),
     spanMinutes: endMinutes - startMinutes,
     classMinutes,
     idleMinutes: endMinutes - startMinutes - classMinutes,
@@ -98,11 +100,11 @@ const compare = (a: PlanMetrics, b: PlanMetrics, strategy: PlanStrategy): number
   const left =
     strategy === "shortest-day"
       ? [a.spanMinutes, a.endMinutes, a.idleMinutes, a.swaps]
-      : [a.endMinutes, a.spanMinutes, a.idleMinutes, a.swaps];
+      : [a.endMinutes, toMinutes(a.earliestStart), a.spanMinutes, a.swaps];
   const right =
     strategy === "shortest-day"
       ? [b.spanMinutes, b.endMinutes, b.idleMinutes, b.swaps]
-      : [b.endMinutes, b.spanMinutes, b.idleMinutes, b.swaps];
+      : [b.endMinutes, toMinutes(b.earliestStart), b.spanMinutes, b.swaps];
   for (let index = 0; index < left.length; index += 1) {
     if (left[index] !== right[index]) return left[index] - right[index];
   }

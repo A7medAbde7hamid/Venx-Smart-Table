@@ -27,7 +27,7 @@ import {
 import { cn } from "@/lib/utils";
 
 const selectClassName =
-  "h-11 w-full cursor-pointer rounded-xl border border-border bg-white/85 ps-3 pe-10 text-sm font-medium text-foreground shadow-sm outline-none transition focus:border-primary focus:ring-4 focus:ring-primary/10";
+  "h-11 w-full cursor-pointer rounded-xl border border-border bg-white/85 ps-3 pe-10 text-sm font-medium text-foreground shadow-sm outline-none transition focus:border-primary focus:ring-4 focus:ring-primary/10 dark:bg-white/[0.06] dark:focus:ring-primary/20";
 
 export function PlanForm({ initial }: { initial: PlanQuery }) {
   const router = useRouter();
@@ -122,7 +122,7 @@ export function PlanForm({ initial }: { initial: PlanQuery }) {
                 className={cn(
                   "flex items-center justify-center gap-2 rounded-xl px-3 py-2.5 text-sm font-semibold transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/40",
                   active
-                    ? "bg-white text-foreground shadow-sm ring-1 ring-border/70"
+                    ? "bg-white text-foreground shadow-sm ring-1 ring-border/70 dark:bg-white/[0.08]"
                     : "text-muted-foreground hover:text-foreground",
                 )}
               >
@@ -132,7 +132,7 @@ export function PlanForm({ initial }: { initial: PlanQuery }) {
                     "rounded-md px-1.5 py-0.5 text-[10px] font-bold",
                     active
                       ? "bg-primary/10 text-primary"
-                      : "bg-white/60 text-muted-foreground",
+                      : "bg-white/60 text-muted-foreground dark:bg-white/[0.06]",
                   )}
                 >
                   {item.short}
@@ -156,7 +156,7 @@ export function PlanForm({ initial }: { initial: PlanQuery }) {
                   "relative cursor-pointer rounded-2xl border p-4 transition-all focus-within:ring-2 focus-within:ring-primary/30",
                   active
                     ? "border-primary bg-primary/[0.04] ring-1 ring-primary"
-                    : "border-border bg-white/70 hover:border-primary/30 hover:bg-white",
+                    : "border-border bg-white/70 hover:border-primary/30 hover:bg-white dark:bg-white/[0.03] dark:hover:bg-white/[0.06]",
                 )}
               >
                 <input

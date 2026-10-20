@@ -62,7 +62,7 @@ export function ResultsView({ query, result }: ResultsViewProps) {
           تعديل البيانات
         </Link>
         <div className="flex flex-wrap items-center gap-2">
-          <Badge variant="violet">
+          <Badge variant="accent">
             <Sparkles />
             {strategyLabel(query.strategy)}
           </Badge>
@@ -107,10 +107,10 @@ export function ResultsView({ query, result }: ResultsViewProps) {
           <ArrowLeft className="size-6 text-primary/30" />
         </div>
 
-        <Card className="relative overflow-hidden border-emerald-200/80 bg-gradient-to-br from-emerald-50/90 via-white to-white p-5 sm:p-6">
-          <div className="pointer-events-none absolute -left-10 -top-10 size-32 rounded-full bg-emerald-200/40 blur-2xl" />
+        <Card className="relative overflow-hidden border-emerald-200/80 bg-gradient-to-br from-emerald-50/90 via-white to-white p-5 sm:p-6 dark:border-emerald-500/30 dark:from-emerald-950 dark:via-neutral-950 dark:to-neutral-950">
+          <div className="pointer-events-none absolute -left-10 -top-10 size-32 rounded-full bg-emerald-200/40 blur-2xl dark:bg-emerald-500/20" />
           <div className="relative flex items-center justify-between gap-2">
-            <p className="text-sm font-semibold text-emerald-800">
+            <p className="text-sm font-semibold text-emerald-800 dark:text-emerald-200">
               خطتنا المقترحة
             </p>
             <Badge variant="success">
@@ -221,7 +221,7 @@ function TimePair({ start, end }: { start: string; end: string }) {
 
 function Metric({ label, value }: { label: string; value: string }) {
   return (
-    <Card className="bg-white/70 p-4 text-center backdrop-blur-sm">
+    <Card className="bg-white/70 p-4 text-center backdrop-blur-sm dark:bg-white/[0.04]">
       <p className="text-[11px] font-medium text-muted-foreground">{label}</p>
       <p className="mt-1 text-base font-extrabold">{value}</p>
     </Card>
@@ -255,8 +255,8 @@ function SessionRow({
       className={cn(
         "relative overflow-hidden rounded-2xl border p-4 pe-5 shadow-sm transition sm:p-5 sm:pe-6",
         changed
-          ? "border-amber-200 bg-amber-50/70"
-          : "border-border/80 bg-white/85 hover:border-primary/25",
+          ? "border-amber-200 bg-amber-50/70 dark:border-amber-400/30 dark:bg-amber-500/10"
+          : "border-border/80 bg-white/85 hover:border-primary/25 dark:bg-white/[0.04]",
       )}
     >
       <span
@@ -270,7 +270,7 @@ function SessionRow({
           <div className="flex flex-wrap items-center gap-2">
             <h3 className="text-base font-extrabold">{session.courseName}</h3>
             <Badge
-              variant={session.type === "lecture" ? "violet" : "secondary"}
+              variant={session.type === "lecture" ? "accent" : "secondary"}
             >
               {session.type === "lecture" ? "محاضرة" : "سكشن"}
             </Badge>
@@ -297,7 +297,7 @@ function SessionRow({
           </div>
         </div>
 
-        <div className="rounded-xl bg-white/75 px-3 py-2 text-left shadow-sm ring-1 ring-border/60">
+        <div className="rounded-xl bg-white/75 px-3 py-2 text-left shadow-sm ring-1 ring-border/60 dark:bg-white/[0.06] dark:ring-white/10">
           <p className="text-sm font-bold tabular-nums">
             {formatClock(session.start)}
           </p>
@@ -308,7 +308,7 @@ function SessionRow({
       </div>
 
       {changed && original && (
-        <div className="mt-3 flex flex-wrap items-center gap-2 rounded-xl bg-amber-100/70 px-3 py-2 text-xs font-medium text-amber-900">
+        <div className="mt-3 flex flex-wrap items-center gap-2 rounded-xl bg-amber-100/70 px-3 py-2 text-xs font-medium text-amber-900 dark:bg-amber-500/15 dark:text-amber-200">
           <Repeat2 className="size-3.5" />
           {session.type === "section"
             ? `بدلًا من ${formatSections(original.sections)} — نفس المعيد ${session.instructor}`
