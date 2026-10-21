@@ -1,16 +1,37 @@
-import { NextResponse } from "next/server";
+import { NextResponse, type NextRequest } from "next/server";
+import { isAdminAuthenticated } from "@/lib/admin-auth";
 import {
   createMaintenanceId,
   roomKey,
   validateMaintenanceInput,
 } from "@/lib/admin-validation";
+import { readJsonBody } from "@/lib/request-body";
 import { updateTimetable } from "@/lib/timetable";
 
 export const runtime = "nodejs";
 
-export async function POST(request: Request) {
-  const body = await request.json().catch(() => null);
-  const validation = validateMaintenanceInput(body);
+const MAX_MAINTENANCE_BODY_BYTES = 16 * 1024;
+
+export async function POST(request: NextRequest) {
+  if (!(await isAdminAuthenticated(request))) {
+    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+  }
+
+  const body = await readJsonBody(request, MAX_MAINTENANCE_BODY_BYTES);
+
+  if (!body.ok) {
+    return NextResponse.json(
+      {
+        error:
+          body.reason === "too_large"
+            ? "الطلب كبير جدًا."
+            : "بيانات الصيانة غير صالحة.",
+      },
+      { status: body.reason === "too_large" ? 413 : 400 },
+    );
+  }
+
+  const validation = validateMaintenanceInput(body.value);
 
   if (!validation.ok) {
     return NextResponse.json({ error: validation.error }, { status: 400 });

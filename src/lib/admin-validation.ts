@@ -5,6 +5,15 @@ const DAYS: Day[] = ["sat", "sun", "mon", "tue", "wed", "thu", "fri"];
 const WEEKS: Week[] = ["W1", "W2"];
 const TYPES: SessionType[] = ["lecture", "section"];
 
+export const SESSION_TEXT_LIMITS = {
+  courseName: 120,
+  courseId: 80,
+  instructor: 80,
+  room: 40,
+} as const;
+
+export const MAINTENANCE_NOTE_LIMIT = 200;
+
 type SessionInput = Record<string, unknown>;
 
 export type ValidationResult<T> =
@@ -84,8 +93,14 @@ export function validateSessionInput(
   const sections = parseSections(data.sections);
 
   if (!courseName) return { ok: false, error: "اسم المادة مطلوب." };
+  if (courseName.length > SESSION_TEXT_LIMITS.courseName) {
+    return { ok: false, error: "اسم المادة طويل جدًا." };
+  }
   if (!/^[a-z0-9-]+$/.test(courseId)) {
     return { ok: false, error: "معرف المادة لازم يكون حروف إنجليزية وأرقام وشرطات." };
+  }
+  if (courseId.length > SESSION_TEXT_LIMITS.courseId) {
+    return { ok: false, error: "معرف المادة طويل جدًا." };
   }
   if (!TYPES.includes(type)) return { ok: false, error: "نوع الحصة غير صالح." };
   if (!WEEKS.includes(week)) return { ok: false, error: "الأسبوع غير صالح." };
@@ -97,7 +112,13 @@ export function validateSessionInput(
     return { ok: false, error: "وقت النهاية لازم يكون بعد وقت البداية." };
   }
   if (!instructor) return { ok: false, error: "اسم المعيد مطلوب." };
+  if (instructor.length > SESSION_TEXT_LIMITS.instructor) {
+    return { ok: false, error: "اسم المعيد طويل جدًا." };
+  }
   if (!room) return { ok: false, error: "القاعة مطلوبة." };
+  if (room.length > SESSION_TEXT_LIMITS.room) {
+    return { ok: false, error: "اسم القاعة طويل جدًا." };
+  }
   if (!sections) {
     return { ok: false, error: "السكاشن لازم تكون أرقام من 1 لـ 15 بدون تكرار." };
   }
@@ -170,6 +191,12 @@ export function validateMaintenanceInput(
 
   if (!DAYS.includes(day)) return { ok: false, error: "اليوم غير صالح." };
   if (!room) return { ok: false, error: "القاعة مطلوبة." };
+  if (room.length > SESSION_TEXT_LIMITS.room) {
+    return { ok: false, error: "اسم القاعة طويل جدًا." };
+  }
+  if (note.length > MAINTENANCE_NOTE_LIMIT) {
+    return { ok: false, error: "الملاحظة طويلة جدًا." };
+  }
 
   return { ok: true, value: { day, room, note: note || undefined } };
 }

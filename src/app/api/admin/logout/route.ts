@@ -3,13 +3,13 @@ import { ADMIN_COOKIE_NAME } from "@/lib/admin-auth";
 
 export const runtime = "nodejs";
 
-export async function POST(request: Request) {
+export async function POST() {
   const response = NextResponse.json({ ok: true });
 
   response.cookies.set(ADMIN_COOKIE_NAME, "", {
     httpOnly: true,
     sameSite: "lax",
-    secure: new URL(request.url).protocol === "https:",
+    secure: process.env.NODE_ENV === "production",
     path: "/",
     maxAge: 0,
   });

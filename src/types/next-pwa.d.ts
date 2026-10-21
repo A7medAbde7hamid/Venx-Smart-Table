@@ -1,9 +1,17 @@
 declare module "next-pwa" {
   import type { NextConfig } from "next";
 
-  interface RuntimeCaching {
-    urlPattern: RegExp | string;
+  export interface RuntimeCaching {
+    urlPattern:
+      | RegExp
+      | string
+      | ((options: {
+          url: URL;
+          request: Request;
+          sameOrigin: boolean;
+        }) => boolean);
     handler: string;
+    method?: string;
     options?: Record<string, unknown>;
   }
 
@@ -36,4 +44,11 @@ declare module "next-pwa" {
   export default function withPWAInit(
     config: PWAConfig,
   ): (nextConfig: NextConfig) => NextConfig;
+}
+
+declare module "next-pwa/cache" {
+  import type { RuntimeCaching } from "next-pwa";
+
+  const defaultCache: RuntimeCaching[];
+  export default defaultCache;
 }

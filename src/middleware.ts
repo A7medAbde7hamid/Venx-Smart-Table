@@ -1,27 +1,17 @@
 import { NextResponse, type NextRequest } from "next/server";
-import {
-  ADMIN_COOKIE_NAME,
-  createAdminSessionToken,
-  getAdminPassword,
-} from "@/lib/admin-auth";
+import { isAdminAuthenticated } from "@/lib/admin-auth";
 
 export async function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
   const isLoginPage = pathname === "/admin/login";
   const isLoginApi = pathname === "/api/admin/login";
+  const isLogoutApi = pathname === "/api/admin/logout";
 
-  if (isLoginApi) {
+  if (isLoginApi || isLogoutApi) {
     return NextResponse.next();
   }
 
-  const password = getAdminPassword();
-  const expectedToken = password
-    ? await createAdminSessionToken(password)
-    : null;
-  const currentToken = request.cookies.get(ADMIN_COOKIE_NAME)?.value;
-  const authenticated = Boolean(
-    expectedToken && currentToken === expectedToken,
-  );
+  const authenticated = await isAdminAuthenticated(request);
 
   if (pathname.startsWith("/api/admin")) {
     if (!authenticated) {
