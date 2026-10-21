@@ -16,7 +16,7 @@ interface MaintenanceCardProps {
 }
 
 const selectClassName =
-  "h-11 w-full cursor-pointer rounded-xl border border-border bg-white/85 px-3 text-sm font-medium text-foreground shadow-sm outline-none transition focus:border-primary focus:ring-4 focus:ring-primary/10 dark:bg-white/[0.06] dark:focus:ring-primary/20";
+  "h-11 w-full cursor-pointer rounded-xl border border-border bg-popover px-3 text-sm font-medium text-popover-foreground shadow-sm outline-none transition focus:border-primary focus:bg-accent focus:text-accent-foreground focus:ring-4 focus:ring-primary/10 dark:focus:ring-primary/20";
 
 export function MaintenanceCard({
   maintenance,

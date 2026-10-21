@@ -31,6 +31,9 @@ interface FormState {
 const fieldClassName =
   "h-11 w-full rounded-xl border border-border bg-white/85 px-3 text-sm font-medium text-foreground shadow-sm outline-none transition focus:border-primary focus:ring-4 focus:ring-primary/10 dark:bg-white/[0.06] dark:focus:ring-primary/20";
 
+const selectClassName =
+  "h-11 w-full cursor-pointer rounded-xl border border-border bg-popover px-3 text-sm font-medium text-popover-foreground shadow-sm outline-none transition focus:border-primary focus:bg-accent focus:text-accent-foreground focus:ring-4 focus:ring-primary/10 dark:focus:ring-primary/20";
+
 const initialForm = (session?: Session): FormState => ({
   courseName: session?.courseName ?? "",
   courseId: session?.courseId ?? "",
@@ -210,7 +213,7 @@ export function SessionDialog({
                 onChange={(event) =>
                   update("type", event.target.value as SessionType)
                 }
-                className={fieldClassName}
+                className={selectClassName}
               >
                 <option value="section">سكشن</option>
                 <option value="lecture">محاضرة</option>
@@ -227,7 +230,7 @@ export function SessionDialog({
                 onChange={(event) =>
                   update("week", event.target.value as Week)
                 }
-                className={fieldClassName}
+                className={selectClassName}
               >
                 {WEEKS.map((week) => (
                   <option key={week.value} value={week.value}>
@@ -245,7 +248,7 @@ export function SessionDialog({
                 id="session-day"
                 value={form.day}
                 onChange={(event) => update("day", event.target.value as Day)}
-                className={fieldClassName}
+                className={selectClassName}
               >
                 {DAYS.map((day) => (
                   <option key={day.value} value={day.value}>

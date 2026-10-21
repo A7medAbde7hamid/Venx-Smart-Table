@@ -8,6 +8,8 @@
   --foreground: #0a0a0a;
   --card: #ffffff;
   --card-foreground: #0a0a0a;
+  --popover: #ffffff;
+  --popover-foreground: #0a0a0a;
   --primary: #0f3d2e;
   --primary-foreground: #ffffff;
   --secondary: #eef4f1;
@@ -28,6 +30,8 @@
   --foreground: #f6fbf8;
   --card: #101613;
   --card-foreground: #f6fbf8;
+  --popover: #101613;
+  --popover-foreground: #f6fbf8;
   --primary: #1f8f67;
   --primary-foreground: #04140d;
   --secondary: #16211c;
@@ -46,6 +50,8 @@
   --color-foreground: var(--foreground);
   --color-card: var(--card);
   --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
   --color-primary: var(--primary);
   --color-primary-foreground: var(--primary-foreground);
   --color-secondary: var(--secondary);
@@ -94,22 +100,37 @@ body {
   background-color: var(--primary);
 }
 
-select {
-  background-image:
-    linear-gradient(45deg, transparent 50%, var(--muted-foreground) 50%),
-    linear-gradient(135deg, var(--muted-foreground) 50%, transparent 50%);
-  background-position:
-    calc(1rem) calc(50% - 2px),
-    calc(1rem - 5px) calc(50% - 2px);
-  background-size: 5px 5px, 5px 5px;
-  background-repeat: no-repeat;
-  appearance: none;
-}
-
-@media (min-width: 640px) {
+@layer base {
   select {
+    color: var(--popover-foreground);
+    background-color: var(--popover);
+    background-image:
+      linear-gradient(45deg, transparent 50%, var(--muted-foreground) 50%),
+      linear-gradient(135deg, var(--muted-foreground) 50%, transparent 50%);
     background-position:
-      calc(1.25rem) calc(50% - 2px),
-      calc(1.25rem - 5px) calc(50% - 2px);
+      calc(1rem) calc(50% - 2px),
+      calc(1rem - 5px) calc(50% - 2px);
+    background-size: 5px 5px, 5px 5px;
+    background-repeat: no-repeat;
+    appearance: none;
+  }
+
+  select option {
+    color: var(--popover-foreground);
+    background-color: var(--popover);
+  }
+
+  select option:checked,
+  select option:hover {
+    color: var(--accent-foreground);
+    background-color: var(--accent);
+  }
+
+  @media (min-width: 640px) {
+    select {
+      background-position:
+        calc(1.25rem) calc(50% - 2px),
+        calc(1.25rem - 5px) calc(50% - 2px);
+    }
   }
 }
