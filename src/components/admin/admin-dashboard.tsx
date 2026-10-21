@@ -55,7 +55,10 @@ async function request<T>(url: string, init?: RequestInit): Promise<T> {
     | null;
 
   if (!response.ok) {
-    throw new Error(data?.error ?? "حدث خطأ غير متوقع.");
+    throw new Error(
+      data?.error ??
+        `تعذر تنفيذ الطلب (${response.status}). راجع سجلات السيرفر.`,
+    );
   }
 
   return data as T;
@@ -282,7 +285,7 @@ export function AdminDashboard({ initialTimetable }: AdminDashboardProps) {
               حصص الجدول
             </h2>
             <p className="mt-0.5 text-xs text-muted-foreground">
-              عدّل أي حصة أو أضف حصة جديدة من غير ما تلمس JSON.
+              عدّل أي حصة أو أضف حصة جديدة مباشرة في قاعدة البيانات.
             </p>
           </div>
           <Button

@@ -5,6 +5,7 @@ import {
   roomKey,
   validateMaintenanceInput,
 } from "@/lib/admin-validation";
+import { storageErrorResponse } from "@/lib/api-errors";
 import { readJsonBody } from "@/lib/request-body";
 import { updateTimetable } from "@/lib/timetable";
 
@@ -40,29 +41,36 @@ export async function POST(request: NextRequest) {
   const { day, room, note } = validation.value;
   let action: "added" | "removed" = "added";
 
-  const timetable = await updateTimetable((data) => {
-    const index = data.maintenance.findIndex(
-      (window) =>
-        window.day === day && roomKey(window.room) === roomKey(room),
-    );
+  try {
+    const timetable = await updateTimetable((data) => {
+      const index = data.maintenance.findIndex(
+        (window) =>
+          window.day === day && roomKey(window.room) === roomKey(room),
+      );
 
-    if (index >= 0) {
-      data.maintenance.splice(index, 1);
-      action = "removed";
-      return;
-    }
+      if (index >= 0) {
+        data.maintenance.splice(index, 1);
+        action = "removed";
+        return;
+      }
 
-    data.maintenance.push({
-      id: createMaintenanceId(),
-      day,
-      room,
-      note,
+      data.maintenance.push({
+        id: createMaintenanceId(),
+        day,
+        room,
+        note,
+      });
     });
-  });
 
-  return NextResponse.json({
-    ok: true,
-    action,
-    maintenance: timetable.maintenance,
-  });
+    return NextResponse.json({
+      ok: true,
+      action,
+      maintenance: timetable.maintenance,
+    });
+  } catch (error) {
+    return storageErrorResponse(
+      error,
+      "تعذر حفظ حالة القاعة. حاول مرة أخرى.",
+    );
+  }
 }

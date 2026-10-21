@@ -4,6 +4,7 @@ import {
   findSessionConflict,
   validateSessionInput,
 } from "@/lib/admin-validation";
+import { storageErrorResponse } from "@/lib/api-errors";
 import { readJsonBody } from "@/lib/request-body";
 import { updateTimetable } from "@/lib/timetable";
 import type { Session } from "@/lib/types";
@@ -74,7 +75,10 @@ export async function PATCH(request: NextRequest, context: RouteContext) {
         { status: 409 },
       );
     }
-    throw error;
+    return storageErrorResponse(
+      error,
+      "تعذر حفظ تعديلات الحصة. حاول مرة أخرى.",
+    );
   }
 }
 
@@ -103,6 +107,6 @@ export async function DELETE(request: NextRequest, context: RouteContext) {
         { status: 404 },
       );
     }
-    throw error;
+    return storageErrorResponse(error, "تعذر حذف الحصة. حاول مرة أخرى.");
   }
 }

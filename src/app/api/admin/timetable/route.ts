@@ -1,5 +1,6 @@
 import { NextResponse, type NextRequest } from "next/server";
 import { isAdminAuthenticated } from "@/lib/admin-auth";
+import { storageErrorResponse } from "@/lib/api-errors";
 import { readTimetable } from "@/lib/timetable";
 
 export const runtime = "nodejs";
@@ -10,9 +11,16 @@ export async function GET(request: NextRequest) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 
-  const timetable = await readTimetable();
+  try {
+    const timetable = await readTimetable();
 
-  return NextResponse.json(timetable, {
-    headers: { "Cache-Control": "no-store" },
-  });
+    return NextResponse.json(timetable, {
+      headers: { "Cache-Control": "no-store" },
+    });
+  } catch (error) {
+    return storageErrorResponse(
+      error,
+      "تعذر تحميل بيانات الجدول. حاول مرة أخرى.",
+    );
+  }
 }

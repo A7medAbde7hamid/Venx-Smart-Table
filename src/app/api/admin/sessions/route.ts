@@ -5,6 +5,7 @@ import {
   findSessionConflict,
   validateSessionInput,
 } from "@/lib/admin-validation";
+import { storageErrorResponse } from "@/lib/api-errors";
 import { readJsonBody } from "@/lib/request-body";
 import { updateTimetable } from "@/lib/timetable";
 import type { Session } from "@/lib/types";
@@ -63,6 +64,6 @@ export async function POST(request: NextRequest) {
         { status: 409 },
       );
     }
-    throw error;
+    return storageErrorResponse(error, "تعذر حفظ الحصة. حاول مرة أخرى.");
   }
 }
